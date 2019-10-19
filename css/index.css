@@ -36,6 +36,35 @@
     ***************** */
 
     /* navbar */
+    header {
+    font-weight: bold;
+}
+
+.searchbox {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+}
+
+    .headerlogo > img {
+        height: 100px;
+        width: 100px;
+    }
+
+#headername {
+    font-size: 40px;
+    /*text-shadow: 5px 5px 5px #5f2c17;*/
+    color: blue;
+    padding: 15px;
+    margin: 8px 0px;s
+    font-weight: bold;
+}
 nav {
     height: 45px;
     width: 100%;
@@ -51,7 +80,7 @@ nav {
             display: block;
         }
 .navlink {
-    height: 35px;
+    height: 40px;
     margin-right: 10px;
     font-size: 18px;
     float: left;
