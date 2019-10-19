@@ -37,6 +37,47 @@
 
     /* navbar */
 
+   .navbar {
+      color: white;
+      font-family: 'Centuary Gothic', sans-serif;
+      font-size: 1.25rem;
+      background-color: rgba(8, 11, 35, 1);
+   }
+
+   .navbar ul {
+      list-style-type: none;
+      padding: 0.2rem;
+      margin-bottom: 0;
+   }
+
+   .navbar li {
+      float: right;
+   }
+
+   .navbar a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 0.1rem 0.7rem;
+      text-decoration: none;
+      transition: all 0.5s;
+   }
+
+   .navbar li a:hover {
+      color: orange;
+   }
+
+   .navbar .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+   }
+
+   .navbar .logo {
+      float: left;
+      margin: 0.5rem;
+   }
+
     /* buttons */
 
     /* cards */
