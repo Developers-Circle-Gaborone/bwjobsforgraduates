@@ -6,7 +6,7 @@
   2) TYPOGRAPHY
   3) COMPONENTS
     - buttons
-    - navbar
+    - navbar   
     - cards
     - forms
     - footer
@@ -36,7 +36,31 @@
     ***************** */
 
     /* navbar */
+      nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+  nav ul li {
+            display: block;
+        }
+.navlink {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    text-decoration: none;
+}
 
+    .navlink.active {
+    }
     /* buttons */
 
     /* cards */
