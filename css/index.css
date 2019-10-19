@@ -49,3 +49,12 @@
  /* *****************
     LAYOUTS
     ***************** */
+
+header h1{
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.bg-blue {
+  background-color: rgb(151, 183, 201) !important;
+}
