@@ -1,4 +1,5 @@
 # bwjobsforgraduates
+bwjobsforgraduates is a webapp for sharing job opportunities, success stories,application tips and tricks, interview messages and many more.
 
 ## HOW TO GET STARTED
 1. Fork this repository
@@ -24,3 +25,17 @@ preferrably use `develop`
 ## Checkout bwjobsforgraduates
 #### links to the pages
 <a href="https://www.facebook.com/bwjobsforgraduates/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/bwjobsforgraduates" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a>
+
+## BUILT WITH
+1. JavaScript
+2. HTML
+3. CSS
+
+## ACKNOWLEDGEMENTS
+1. Facebook Developers Circle: Gaborone
+`https://www.facebook.com/groups/DevCGaborone`
+2. GDG Gaborone
+`https://www.facebook.com/groups/gdggaborone`
+3. PyData BW
+`https://www.facebook.com/groups/255983344913706`
+
