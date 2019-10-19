@@ -1,4 +1,4 @@
-/* ===========================
+    /* ===========================
 
   TABLE OF CONTENT
 
@@ -14,38 +14,169 @@
   4) LAYOUTS
 
    =========================== */
-
-
-
- /* *****************
+    /* *****************
     GLOBAL STYLES
     ***************** */
-
-
-
-
- /* *****************
+    /* *****************
     TYPOGRAPHY
     ***************** */
-
-
-
-
- /* *****************
+    /* *****************
     COMPONENTS
     ***************** */
-
     /* navbar */
-
+    /* top nav */
+    
+    nav {
+        height: 38px;
+        width: 100%;
+        background-color: #333;
+        color: #eee;
+        position: fixed;
+        z-index: 3;
+    }
+    
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav li {
+        display: inline;
+        float: left;
+    }
+    
+    nav a {
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        color: #eee;
+        text-decoration: none;
+        padding: 10px 0;
+    }
+    
+    nav a#openup {
+        display: none;
+    }
+    
+    .nav-partner_with_us {
+        display: block;
+        font-size: 16px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 30px;
+        float: right;
+        border: 1px solid #111;
+        padding: 0px 20px;
+        margin-right: 40px;
+        margin-top: 5px;
+        width: 200px;
+        height: 38px;
+    }
+    /* logo */
+    
+    .logo-img {
+        border-radius: 50%;
+    }
+    /* showcase */
+    
+    .showcase {
+        width: 100%;
+        height: 78vh;
+        position: relative;
+        background: url('../images/ent_pic1.jpg') no-repeat center center/cover;
+    }
+    /* pseudo style */
+    
+    .showcase::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.45);
+        box-shadow: inset 80px 80px 180px rgb(77, 75, 75), inset -80px -80px 180px rgb(77, 75, 75);
+    }
+    
+    .showcase-top {
+        position: relative;
+        height: 90px;
+        z-index: 2;
+    }
+    
+    .showcase-top img {
+        width: 90px;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .showcase-top a {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(-50%, -50%);
+    }
+    /* showcase content */
+    
+    .showcase-content {
+        z-index: 2;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 7rem;
+    }
+    
+    .showcase-content h1 {
+        font-weight: 700;
+        font-size: 5.2rem;
+        line-height: 1.1;
+        margin: 0 0 2rem;
+    }
+    
+    .showcase-content p {
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.25rem;
+        line-height: 1.1;
+        margin: 0 0 2rem;
+    }
+    /* fonts */
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: #fff;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    p {
+        margin: 0.5rem 0;
+    }
+    
+    img {
+        width: 100%
+    }
+    
+    .xshadow {
+        text-shadow: 2px 2px 8px #111;
+    }
     /* buttons */
-
     /* cards */
-
     /* forms */
-
     /* footer */
-
-
- /* *****************
+    /* *****************
     LAYOUTS
     ***************** */
