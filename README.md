@@ -1,6 +1,6 @@
 # bwjobsforgraduates
 
-##HOW TO GET STARTED
+## HOW TO GET STARTED
 1. Fork this repository
 `https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates.git`
 2. Clone your fork down to your local machine
