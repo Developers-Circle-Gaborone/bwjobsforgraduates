@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="JOB ALERT">
+    <meta name="author" content=" Oarabile Mwiya">
+    <title>Bw jobs for graduate | Bw jobs</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" href="https://maxcdn.dbootstrapcdn.com/bootstrap/">
+   
+    <style media="screen">
+    	/*#custom-button {
+    		padding: 10px;
+    		color: white;
+    		background-color: #e8491d;
+    		border: 1px solid #000;
+    		border-radius: 5px;
+    		cursor: pointer;
+    	}
+
+    	#custom-button:hover{
+    		background-color: #e8491d
+    	}
+
+    	#custom-text {
+    		margin-left: 10px;
+    		font-family: sans-serif;	
+    		color: #e8491d;*/
+
+
+    	
+    </style>
+  </head>
+<body>
+
+	<div class="box" style="background:url('p.png');">
+	<h1>Curriculum vitae</h1>
+	<form action="report.php" method="post">
+
+		
+		<input type="text" name="Fullname" placeholder="Fullname">
+		<select name="Level" placeholder="Level" style="width:350px;height:40px;">
+		    
+			<option value="Student" >Student</option>
+			<option value="graduate">graduate</option>
+			
+			<input type="text" name="other" placeholder="Other Specify">
+		</select>
+	
+		<input type="text" name="Location"  placeholder="Location"  style="display: block;margin-bottom: 25px;width: 100%;border: 2px solid steelblue;cursor: pointer;">
+		<select type="text" name="Gender" placeholder="Gender" style="width:350px;height:40px;">
+		<option value="Male" >Male</option>
+	    <option value="Female">Female</option>
+			<option value="Other">Other</option></select>
+		<input type="text" name="Qualification" placeholder="Qualification">
+		<input type="text" name="Work Experience" placeholder="Work Experience">
+		<textarea name="description about yourself" rows="5" cols="41" placeholder="Write a description about yourself"></textarea>
+
+	
+
+		<h2>Upload Reference material (recommendations)</h2>
+		<input type="hidden" name="MAX_FILE_SIZE" value="900000"/>
+		<input type="file" name="img" id="real-file">
+		<button type="submit" name="Submit" id="btn"  style="width:340px;height:40px;color:#fff;background-color:blue;">Submit</button>
+
+
+	</form>
+</div>
+
+</body>
+</html>
+<script >
+ $(document).ready(function(){
+	 $('#btn').click(function)({
+		var ext=$('#real-file').val().split('.').pop().toLowerCase(); 
+       if(jQuery.inArray(ext,['gif','png','jpg','jpeg'])==-1){
+		   alert('Invalid Image File');
+	   }
+       else	 
+        alert('Upload Success!');		   
+			 
+		 }
+		 
+	 });	 
+	 
+ });
+ </script>

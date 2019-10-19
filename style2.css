@@ -1,0 +1,99 @@
+body{
+	background-color: #e8f3f8;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: #e8491d;
+}
+
+form{
+	margin: 20px auto;
+	width: 320px;
+	color: steelblue;
+}
+
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+
+input[type="text"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+
+select {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+
+input[type="text"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+
+input[type="date"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	cursor: pointer;
+}
+
+.box {
+	border: 3px solid #35424a;
+ background:url('crimes.png') no-repeat 0 -400px;;
+}
+
+ #btn {
+	width: 344px;
+	height: 45px;
+	border: none;
+	background: #e8491d;
+	color: white;
+	cursor: pointer;
+}
+
+button :focus{
+	width: 344px;
+	height: 45px;
+	border: solid steelblue;
+	background: white;
+	color: #e8491d;
+	cursor: pointer;
+}
+
+input:focus {
+	background: black;
+}
+
+input[type="date"] {
+
+}
+
+textarea {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+
+#real-file {
+    display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	
+}
+
+h2 {
+	text-decoration: none;
+	font-size: 20px;
+}
