@@ -1,22 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <meta charset="utf-8">
-    <title>Hello World</title>
+    <title>JobsForGrads</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css" >
+    <link rel="stylesheet" type="text/css" href="css/index.css" >
   </head>
-  <body>
+ <body>
 
-  <h1>Hello AWS</h1>
-      <h1>Hello Hacktoberfest</h1>
+  <header class="navigation">
+  <div id="branding"> 
+          <h2><span class="highlight">BW</span>JOBS4GRADS</h2>
+          <img src="img/logo.png" alt="logo" style="width:40px;height:40px"></img>
+        </div>
+      <ul>
+      <li><a href=#>Subscribe</li>
+      <li><a href=#>Contact Us</li>
+      <li><a href=#>Tuesday</li>
+      <li><a href=#>About Us</li>
+      <li><a href=#>Services</a></li>
+      </ul>
+ </header>
+ <div class=slide>
+ <h1>BW JOBS FOR GRADUATES</h1>
+ </div>
+
+ <div id="showcase">
+ <div class="slideshow_container" style="margin-top:10px" >
+  <!-- Full-width images-->
+  <div class="mySlides fade" style ="background:url('img/find.jpeg');width:100%;height:380px">
+  <h1>BROWSE JOBS NEARBY</h1>
+        <br><h2>START LOOKING FOR JOBS NEARBY </h2>
+  </div>
+
+  <div class="mySlides fade" style ="background:url('img/image1');width:100%;height:380px;">
+   <h1>CAREERS?</h1>
+        <br><h2>FIND YOUR DREAM JOB TODAY YOUR</h2>
+  </div>
+</slide>
+  <div class="mySlides fade" style ="background:url('img/find.jpeg');width:100%;height:380px">
+    <h1>JOBS FOR GRADUATES</h1>
+    <br><h2>ARE YOU A GRADUATE LOOKING FOR EMPLOYMENT</h2>
+</div>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/index.js" > </script>
 
+<script>
+   
+   var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3500); // Change image every 2 seconds
+} 
+$(function() {
+$(".myslides").click(function() {
+    if($(this).hasClass('darken')) {
+       $(this).removeClass('darken');
+    }
+    else {
+       $(this).addClass('darken');
+    }
+});
+});
+   
+   </script> 
 
   </body>
 </html>

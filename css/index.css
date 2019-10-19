@@ -20,9 +20,33 @@
  /* *****************
     GLOBAL STYLES
     ***************** */
+    
+ 
+  background-repeat: no repeat;
+  overflow: scroll;
+  text-align: center;
+  background-attachment:fixed;
+ 
+}
+body:hover{
+	z-index:222;
+     background-color: #a8afb6
+}
 
-
-
+.slide h1 {
+  background: #464a45;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  text-transform: uppercase;
+  top: 130px;
+  width: 70%;
+}
 
  /* *****************
     TYPOGRAPHY
@@ -36,8 +60,111 @@
     ***************** */
 
     /* navbar */
+   .navigation {
+  background-color: #898e90;
+  height: 120px;
+  text-align:center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  border-bottom: #23619e 3px solid;
+}
+
+.navigation ul {
+  padding: 0;
+  color: #FFF;
+}
+.navigation a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+  
+
+.navigation #branding{
+  float:left;
+}
+
+.navigation #branding h2{
+  margin-top:5px;
+}
+.navigation li {
+   float:right;
+  display:inline;
+  padding: 0 20px 0 20px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-transform: uppercase;
+  margin-top:80px;
+}
+ /*slide show*/
+ 
+#showcase{
+  min-height:500px;
+  text-align:center;
+  width:100%;
+  margin-top:150px
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  color:blue;
+}
+
+#showcase h2{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.slideshow_container{
+max-width: 100%;
+  position: relative;
+  margin-top:10px;
+  text-align: center;
+ margin-left:auto;
+ margin-right:auto;
+ border-style:hidden;
+}
+.mySlides {
+  display: none;
+  margin-top:5px;
+}
+.
+img {vertical-align: middle;}
+
+
+   /* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.8s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+   
 
     /* buttons */
+    
 
     /* cards */
 
