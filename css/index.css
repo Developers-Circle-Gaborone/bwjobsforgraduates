@@ -15,37 +15,56 @@
 
    =========================== */
 
-
-
- /* *****************
+/* *****************
     GLOBAL STYLES
     ***************** */
 
-
-
-
- /* *****************
+/* *****************
     TYPOGRAPHY
     ***************** */
 
-
-
-
- /* *****************
+/* *****************
     COMPONENTS
     ***************** */
 
-    /* navbar */
+/* navbar */
+nav#navbar {
+	background: black;
+	padding: 10px 20px;
+}
 
-    /* buttons */
+nav#navbar ul {
+	list-style-type: none;
+	margin: 0;
+    color: white;
+    overflow: hidden;
+}
 
-    /* cards */
+nav#navbar ul li {
+	float: left;
+}
 
-    /* forms */
+nav#navbar ul li a {
+	color: red;
+}
 
-    /* footer */
+nav#navbar ul li#navbar-title {
+    float: right;
+}
 
+nav#navbar ul li#navbar-title a {
+    color: white;
+    font-weight: bold;
+}
 
- /* *****************
+/* buttons */
+
+/* cards */
+
+/* forms */
+
+/* footer */
+
+/* *****************
     LAYOUTS
     ***************** */
