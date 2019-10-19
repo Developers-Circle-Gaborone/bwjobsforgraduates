@@ -5,6 +5,8 @@
 `https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates.git`
 2. Clone your fork down to your local machine
 `git clone https://github.com/YOUR-NAME/bwjobsforgraduates.git`
+get into the directory
+`cd bwjobsforgraduates`
 3. Create a branch
 `git checkout -b branch-name`
 preferrably use `develop`
