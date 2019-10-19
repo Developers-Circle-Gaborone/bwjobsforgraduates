@@ -1,0 +1,19 @@
+{
+  "name": "bwjobsforgraduates",
+  "version": "0.0.0",
+  "description": "first package for our open source software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates.git"
+  },
+  "author": "Reuben Moswela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates/issues"
+  },
+  "homepage": "https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates#readme"
+}
