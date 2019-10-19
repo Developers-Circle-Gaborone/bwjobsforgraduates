@@ -6,7 +6,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" >
   </head>
+  <style>
+    /* css slider */
+
+  .slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
+</style>
   <body>
+    
 
   <h1>Hello AWS</h1>
       <h1>Hello Hacktoberfest</h1>
@@ -15,6 +31,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/index.js" > </script>
+
+  <!-- slider -->
+  <div align="center"><h2>SIMPLE SLIDER</h2></div>
+  <div class="slider" style="margin-left: 40%;">
+
+    <div class="slide" id="slide-1" style="background-color: red;">1</div>
+    <div class="slide" id="slide-2" style="background-color: yellow;">2</div>
+    <div class="slide" id="slide-3" style="background-color: cyan;">3</div>
+    <div class="slide" id="slide-4" style="background-color:violet;">4</div>
+    <div class="slide" id="slide-5" style="background-color:orange;">5</div>
+  </div>
 
 
 
