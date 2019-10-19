@@ -54,10 +54,6 @@
         padding: 10px 0;
     }
     
-    nav a#openup {
-        display: none;
-    }
-    
     .nav-partner_with_us {
         display: block;
         font-size: 16px;
@@ -173,7 +169,176 @@
     .xshadow {
         text-shadow: 2px 2px 8px #111;
     }
-    /* buttons */
+    /* Text Styles */
+    
+    .text-xl {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .text-lg {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .text-md {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-dark-grey {
+        color: #999;
+    }
+    /* Buttons */
+    
+    btn {
+        display: inline-block;
+        background: var(--primary-color);
+        color: #fff;
+        padding: 0.4rem 1.3rem;
+        font-size: 1rem;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        margin-right: 0.5rem;
+        outline: none;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        border-radius: 2px;
+    }
+    
+    .btn:hover {
+        opacity: 0.9;
+    }
+    
+    .btn-rounded {
+        border-radius: 5px;
+    }
+    
+    .btn-xl {
+        background-color: rgb(235, 68, 68);
+        font-size: 2rem;
+        padding: 1.5rem 2.1rem;
+        text-transform: uppercase;
+    }
+    
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.5rem 1.3rem;
+        text-transform: uppercase;
+    }
+    
+    .btn-icon {
+        margin-left: 1rem;
+    }
+    /* Slider */
+    /* container = slider */
+    
+    .slider {
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+        width: 195vh
+    }
+    
+    .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+    }
+    
+    .slide.current {
+        opacity: 1;
+    }
+    
+    .slide .content {
+        position: absolute;
+        bottom: 70px;
+        left: -600px;
+        width: 600px;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #333;
+        padding: 35px;
+        opacity: 0;
+    }
+    
+    .slide.current .content {
+        opacity: 1;
+        transform: translateX(600px);
+        transition: all 0.7s ease-in-out 0.3s;
+    }
+    
+    .buttons button#next {
+        position: absolute;
+        top: 50%;
+        right: 15px
+    }
+    
+    .buttons button#prev {
+        position: absolute;
+        top: 50%;
+        left: 15px
+    }
+    
+    .buttons button {
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        cursor: pointer;
+        padding: 13px 15px;
+        border-radius: 50%;
+        outline: none;
+    }
+    
+    .buttons button:hover {
+        background-color: #fff;
+        color: #333;
+    }
+    /* media */
+    
+    @media(max-width:500px) {
+        .slide .content {
+            bottom: -300px;
+            left: 0;
+            width: 100%
+        }
+        .slide.current .content {
+            transform: translateY(-300px);
+        }
+    }
+    /* insert backgrounds for each
+ slide using the nth-child property */
+    
+    .slide:first-child {
+        background: url('../images/img2.jpg') no-repeat center center/cover;
+    }
+    
+    .slide:nth-child(2) {
+        background: url('../images/img3.jpg') no-repeat center center/cover;
+    }
+    
+    .slide:nth-child(3) {
+        background: url('../images/img4.jpg') no-repeat center center/cover;
+    }
+    
+    .slide:nth-child(4) {
+        background: url('../images/img1.jpg') no-repeat center center/cover;
+    }
+    
+    .slide:nth-child(5) {
+        background: url('../images/img2.jpg') no-repeat center center/cover;
+    }
+    
+    .slide:nth-child(6) {
+        background: url('../images/img3.jpg') no-repeat center center/cover;
+    }
     /* cards */
     /* forms */
     /* footer */
