@@ -3,10 +3,13 @@
   TABLE OF CONTENT
 
   1) GLOBAL STYLES
+    - colors
+
   2) TYPOGRAPHY
   3) COMPONENTS
-    - buttons
+    - list
     - navbar
+    - buttons
     - cards
     - forms
     - footer
@@ -21,6 +24,19 @@
     GLOBAL STYLES
     ***************** */
 
+    /* colors */
+
+    .bg-primary {
+      background: #229C58;
+    }
+
+    .bg-dark {
+      background: #202020 !important;
+    }
+
+    .txt-grey {
+      color: #aaa;
+    }
 
 
 
@@ -28,22 +44,105 @@
     TYPOGRAPHY
     ***************** */
 
-
+    h4 {
+      color: #ffffff;
+      font-size: 18px;
+    }
 
 
  /* *****************
     COMPONENTS
     ***************** */
 
+    /* list */
+
     /* navbar */
 
     /* buttons */
+    .btn-primary {
+      border: 1px solid #229C58;
+      background: #229C58;
+    }
+
+    .btn-primary:hover {
+
+    }
 
     /* cards */
 
     /* forms */
 
     /* footer */
+    .footer__link {
+      font-size: 15px;
+      font-weight: 100;
+    }
+
+    .footer__link:hover {
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .footer__txt {
+      font-size: 16px;
+      font-weight: 100;
+    }
+    .footer__list {
+      margin-top: 1rem;
+      padding-left: 0;
+    }
+
+    .footer__list-item {
+      padding: 3px 0;
+      list-style-type: none;
+    }
+
+    .footer__social-icons-bar {
+      border-top: 1px solid grey;
+    }
+    .footer__social-icon {
+      display: inline-block;
+      width: 46px;
+      height: 46px;
+      color: #ffffff;
+      border: 1px solid grey;
+      padding: .5rem;
+      text-align: center;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 5px;
+    }
+
+    .footer__social-icon-facebook:hover {
+      color: #ffffff;
+      background: #4A6D9D;
+      border: 1px solid #4A6D9D;
+    }
+    .footer__social-icon-twitter:hover {
+      color: #ffffff;
+      background: #3BC1ED;
+      border: 1px solid #3BC1ED;
+    }
+    .footer__social-icon-google-plus:hover {
+      color: #ffffff;
+      background: #D53824;
+      border: 1px solid #D53824;
+    }
+    .footer__social-icon-linked:hover {
+      color: #ffffff;
+      background: #0B7BB5;
+      border: 1px solid #0B7BB5;
+    }
+
+    .copy-right {
+
+    }
+    .copy-right__text {
+      font-size: 15px;
+      font-weight: 100;
+      text-align: center;
+    }
 
 
  /* *****************
