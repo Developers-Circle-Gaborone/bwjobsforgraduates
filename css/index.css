@@ -57,6 +57,9 @@
     /* list */
 
     /* navbar */
+    .active {
+      color: #229C58 !important;
+    }
 
     /* buttons */
     .btn-primary {
@@ -66,6 +69,11 @@
 
     .btn-primary:hover {
 
+    }
+
+    .btn-outline-primary {
+      color: #229C58;
+      border: 1px solid #229C58;
     }
 
     /* cards */
@@ -148,3 +156,74 @@
  /* *****************
     LAYOUTS
     ***************** */
+
+    /* landing-screen */
+    .title {
+      color: #ffffff;
+      letter-spacing: 4px;
+    }
+
+    .subtitle {
+
+    }
+
+    .notification {
+      display: table;
+      background: rgb(0, 0, 0, .6);
+      position: absolute;
+      bottom: 100px;
+      right: 30px;
+    }
+
+    .notification__title {
+      color: #229C58;
+    }
+
+    .notification__text {
+      font-size: 15px;
+    }
+
+    .landing-screen {
+      width: 100vw;
+      height: 100vh;
+
+      background-image: url('../images/bwjobs.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .overlay {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(0, 0, 0, .5);
+    }
+
+    .social-links {
+      list-style-type: none;
+      position: absolute;
+      bottom: 15px;
+    }
+
+    .social-links__item {
+      padding: .5rem;
+    }
+    .social-link {
+      color: #fff;
+    }
+    .social-link:hover {
+      font-size: 30px;
+    }
+
+    .social-link-facebook:hover {
+      color: #4A6D9D;
+    }
+    .social-link-twitter:hover {
+      color: #3BC1ED;
+    }
+    .social-link-google-plus:hover {
+      color: #D53824;
+    }
+    .social-link-linkedin:hover {
+      color: #0B7BB5;
+    }

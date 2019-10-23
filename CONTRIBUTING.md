@@ -1,4 +1,4 @@
-# Contributing to BwJobForBotswana
+# Contributing to BwJobForGraduates
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
@@ -96,7 +96,7 @@ Simply find an issue you are know you can handle and comment requesting assignme
 
 Please follow these steps to have your contribution considered by the maintainers:
 
-1. Provide picture/link of feature added ("saves our hairlines" and "is likely to be merged faster") 
+1. Provide picture/link of feature added ("saves our hairlines" and "is likely to be merged faster")
 2. PLEASE MAKE ALL PULL REQUESTS TO THE DEVELOP BRANCH
 3. Follow the [styleguides](#styleguides)
 4. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing <details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
