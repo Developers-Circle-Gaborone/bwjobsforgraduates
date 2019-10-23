@@ -168,11 +168,9 @@
     }
 
     .notification {
-      display: table;
       background: rgb(0, 0, 0, .6);
-      position: absolute;
-      bottom: 100px;
-      right: 30px;
+      float: right !important;
+      width: 340px !important;
     }
 
     .notification__title {
@@ -185,7 +183,7 @@
 
     .landing-screen {
       width: 100vw;
-      height: 100vh;
+      height: 530px;
 
       background-image: url('../images/bwjobs.png');
       background-position: center;
@@ -195,7 +193,7 @@
 
     .overlay {
       width: 100vw;
-      height: 100vh;
+      height: 530px;
       background-color: rgb(0, 0, 0, .5);
     }
 
@@ -203,6 +201,7 @@
       list-style-type: none;
       position: absolute;
       bottom: 15px;
+      top: 25%;
     }
 
     .social-links__item {
@@ -226,4 +225,8 @@
     }
     .social-link-linkedin:hover {
       color: #0B7BB5;
+    }
+
+    .w-50 {
+      float: left;
     }
