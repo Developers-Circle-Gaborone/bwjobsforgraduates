@@ -72,7 +72,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 * **Reuben Moswela** - *Initial work* - [reu_the_joker](https://github.com/rmoswela)
 
-See also the list of [contributors](#Contributors) who participated in this project.
+See also the list of [contributors](#contributors-✨) who participated in this project.
 
 ## License
 
