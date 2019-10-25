@@ -1,6 +1,6 @@
 # BW Jobs For Graduates Website
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 
 ## How To Get Started
@@ -58,6 +58,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/rmoswela"><img src="https://avatars3.githubusercontent.com/u/22495555?v=4" width="100px;" alt="reu_the_joker"/><br /><sub><b>reu_the_joker</b></sub></a><br /><a href="#ideas-rmoswela" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-rmoswela" title="Design">🎨</a> <a href="https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates/commits?author=rmoswela" title="Documentation">📖</a> <a href="https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates/commits?author=rmoswela" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SidneyMachara"><img src="https://avatars3.githubusercontent.com/u/16288678?v=4" width="100px;" alt="Sidney Mac"/><br /><sub><b>Sidney Mac</b></sub></a><br /><a href="https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates/issues?q=author%3ASidneyMachara" title="Bug reports">🐛</a> <a href="https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates/commits?author=SidneyMachara" title="Documentation">📖</a> <a href="#review-SidneyMachara" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/Kesego23"><img src="https://avatars3.githubusercontent.com/u/38880602?v=4" width="100px;" alt="Kesego23"/><br /><sub><b>Kesego23</b></sub></a><br /><a href="#eventOrganizing-Kesego23" title="Event Organizing">📋</a> <a href="https://github.com/Developers-Circle-Gaborone/bwjobsforgraduates/commits?author=Kesego23" title="Documentation">📖</a> <a href="#example-Kesego23" title="Examples">💡</a></td>
   </tr>
 </table>
 
