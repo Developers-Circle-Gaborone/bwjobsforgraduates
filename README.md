@@ -20,12 +20,12 @@ preferrably `feature-you-are-working-on`
 8. Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo)
 9. Wait for your PR review and merge approval!
 10. Star this repository if you had fun!
-11. Check your changes by clicking here [bwJobsForGraduatesWebsite] (http://bwjobsforgraduates.s3-website.us-east-2.amazonaws.com/)
+11. Check your changes by clicking here [bwJobsForGraduatesWebsite](http://bwjobsforgraduates.s3-website.us-east-2.amazonaws.com/)
 
 ## Prerequisites
 
 * Familiarity with web development and source control.
-* Text editor or IDE preferabbly [Sublime] (https://www.sublimetext.com/) or [VSCode] (https://code.visualstudio.com/) 
+* Text editor or IDE preferabbly [Sublime](https://www.sublimetext.com/) or [VSCode](https://code.visualstudio.com/) 
 
 ## Installation
 
@@ -33,7 +33,7 @@ Nothing
 
 ## Integration and Deployment
 
-* [Travis] (https://travis-ci.org/)
+* [Travis](https://travis-ci.org/)
 
 ## Built With
 
@@ -47,7 +47,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Acknowledgments
 
-* Thanks to all those who attended [Gaborone Open Source Hack Day Event] (https://hacktoberfestgabz19.splashthat.com/)
+* Thanks to all those who attended [Gaborone Open Source Hack Day Event](https://hacktoberfestgabz19.splashthat.com/)
 
 ## Authors
 
