@@ -16,6 +16,28 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "SidneyMachara",
+      "name": "Sidney Mac",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16288678?v=4",
+      "profile": "https://github.com/SidneyMachara",
+      "contributions": [
+        "bug",
+        "doc",
+        "review"
+      ]
+    },
+    {
+      "login": "Kesego23",
+      "name": "Kesego23",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/38880602?v=4",
+      "profile": "https://github.com/Kesego23",
+      "contributions": [
+        "eventOrganizing",
+        "doc",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
