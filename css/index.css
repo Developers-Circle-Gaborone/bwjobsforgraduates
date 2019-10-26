@@ -13,6 +13,7 @@
     - cards
     - forms
     - footer
+    - testimonial
 
   4) LAYOUTS
 
@@ -152,6 +153,66 @@
       text-align: center;
     }
 
+    /* testimonial */
+
+    .testimonial__card {
+      padding: 24px;
+    }
+    .testimonial__text {
+      text-align: center;
+      font-weight: lighter;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      color: #aaa;
+    }
+
+    .testimonial__card-active {
+      background: black;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    .testimonial__card-active::after {
+      content: "";
+      position: relative;
+      display: table;
+      bottom: -40px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      /* triangle shape */
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 20px solid black;
+    }
+
+    .testimonial__body {
+      margin-top: 35px;
+    }
+
+    .testimonial__img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .testimonial__name {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+
+    .testimonial__title {
+      text-align: center;
+      font-weight: lighter;
+    }
+
 
  /* *****************
     LAYOUTS
@@ -187,7 +248,7 @@
       width: 100vw;
       height: 100vh;
 
-      background-image: url('../images/bwjobs.png');
+      background-image: url('../images/bwjobs.jpeg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -226,4 +287,10 @@
     }
     .social-link-linkedin:hover {
       color: #0B7BB5;
+    }
+
+    /* testimonials */
+    .testimonial-emo {
+      width: 1em;
+      height: 1em;
     }
