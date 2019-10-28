@@ -2,6 +2,18 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
+***Bw Jobs For Graduates*** is an organisation that stands to alleviate **unemployment amongst the youth of Botswana** , the organization prepares and equip the youth with **leadership skills, business skills, self-responsibility and encouraging entrepreneurship** among the youth to prepare them to **effectively and productively respond to the challenges** of school, university, the corporate world, labour market and society at large
+
+#### The Organisation's objectives are:
+
+
+> - To help each other as graduates in finding jobs anywhere around the country.
+> - To help those who does not have access to newspapers by posting job adverts for each other.
+> - To share Cover letter writing skills, CV writing skills and interview skills.
+> - To share job interview experiences
+> - To share those jobs that are usually advertised on company newsletters e.g Debswana, BCL e.t.c
+> - To uplift each other when the going seems to be getting tough
+
 
 ## How To Get Started
 1. Fork this repository
@@ -81,6 +93,5 @@ See also the list of [contributors](#contributors-✨) who participated in this 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
-### Checkout bwjobsforgraduates
-#### links to the pages
-<a href="https://www.facebook.com/bwjobsforgraduates/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;<a href="https://twitter.com/bwjobsforgraduates" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a>
+## BW Jobs For Graduates Social Media Links
+<a href="https://www.facebook.com/bwjobsforgraduates/" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" /></a> &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/bwjobsforgraduates" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a>
