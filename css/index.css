@@ -1,0 +1,296 @@
+/* ===========================
+
+  TABLE OF CONTENT
+
+  1) GLOBAL STYLES
+    - colors
+
+  2) TYPOGRAPHY
+  3) COMPONENTS
+    - list
+    - navbar
+    - buttons
+    - cards
+    - forms
+    - footer
+    - testimonial
+
+  4) LAYOUTS
+
+   =========================== */
+
+
+
+ /* *****************
+    GLOBAL STYLES
+    ***************** */
+
+    /* colors */
+
+    .bg-primary {
+      background: #229C58;
+    }
+
+    .bg-dark {
+      background: #202020 !important;
+    }
+
+    .txt-grey {
+      color: #aaa;
+    }
+
+
+
+ /* *****************
+    TYPOGRAPHY
+    ***************** */
+
+    h4 {
+      color: #ffffff;
+      font-size: 18px;
+    }
+
+
+ /* *****************
+    COMPONENTS
+    ***************** */
+
+    /* list */
+
+    /* navbar */
+    .active {
+      color: #229C58 !important;
+    }
+
+    /* buttons */
+    .btn-primary {
+      border: 1px solid #229C58;
+      background: #229C58;
+    }
+
+    .btn-primary:hover {
+
+    }
+
+    .btn-outline-primary {
+      color: #229C58;
+      border: 1px solid #229C58;
+    }
+
+    /* cards */
+
+    /* forms */
+
+    /* footer */
+    .footer__link {
+      font-size: 15px;
+      font-weight: 100;
+    }
+
+    .footer__link:hover {
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .footer__txt {
+      font-size: 16px;
+      font-weight: 100;
+    }
+    .footer__list {
+      margin-top: 1rem;
+      padding-left: 0;
+    }
+
+    .footer__list-item {
+      padding: 3px 0;
+      list-style-type: none;
+    }
+
+    .footer__social-icons-bar {
+      border-top: 1px solid grey;
+    }
+    .footer__social-icon {
+      display: inline-block;
+      width: 46px;
+      height: 46px;
+      color: #ffffff;
+      border: 1px solid grey;
+      padding: .5rem;
+      text-align: center;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 5px;
+    }
+
+    .footer__social-icon-facebook:hover {
+      color: #ffffff;
+      background: #4A6D9D;
+      border: 1px solid #4A6D9D;
+    }
+    .footer__social-icon-twitter:hover {
+      color: #ffffff;
+      background: #3BC1ED;
+      border: 1px solid #3BC1ED;
+    }
+    .footer__social-icon-google-plus:hover {
+      color: #ffffff;
+      background: #D53824;
+      border: 1px solid #D53824;
+    }
+    .footer__social-icon-linked:hover {
+      color: #ffffff;
+      background: #0B7BB5;
+      border: 1px solid #0B7BB5;
+    }
+
+    .copy-right {
+
+    }
+    .copy-right__text {
+      font-size: 15px;
+      font-weight: 100;
+      text-align: center;
+    }
+
+    /* testimonial */
+
+    .testimonial__card {
+      padding: 24px;
+    }
+    .testimonial__text {
+      text-align: center;
+      font-weight: lighter;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      color: #aaa;
+    }
+
+    .testimonial__card-active {
+      background: black;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    .testimonial__card-active::after {
+      content: "";
+      position: relative;
+      display: table;
+      bottom: -40px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      /* triangle shape */
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 20px solid black;
+    }
+
+    .testimonial__body {
+      margin-top: 35px;
+    }
+
+    .testimonial__img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .testimonial__name {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+
+    .testimonial__title {
+      text-align: center;
+      font-weight: lighter;
+    }
+
+
+ /* *****************
+    LAYOUTS
+    ***************** */
+
+    /* landing-screen */
+    .title {
+      color: #ffffff;
+      letter-spacing: 4px;
+    }
+
+    .subtitle {
+
+    }
+
+    .notification {
+      display: table;
+      background: rgb(0, 0, 0, .6);
+      position: absolute;
+      bottom: 100px;
+      right: 30px;
+    }
+
+    .notification__title {
+      color: #229C58;
+    }
+
+    .notification__text {
+      font-size: 15px;
+    }
+
+    .landing-screen {
+      width: 100vw;
+      height: 100vh;
+
+      background-image: url('../images/bwjobs.jpeg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .overlay {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(0, 0, 0, .5);
+    }
+
+    .social-links {
+      list-style-type: none;
+      position: absolute;
+      bottom: 15px;
+    }
+
+    .social-links__item {
+      padding: .5rem;
+    }
+    .social-link {
+      color: #fff;
+    }
+    .social-link:hover {
+      font-size: 30px;
+    }
+
+    .social-link-facebook:hover {
+      color: #4A6D9D;
+    }
+    .social-link-twitter:hover {
+      color: #3BC1ED;
+    }
+    .social-link-google-plus:hover {
+      color: #D53824;
+    }
+    .social-link-linkedin:hover {
+      color: #0B7BB5;
+    }
+
+    /* testimonials */
+    .testimonial-emo {
+      width: 1em;
+      height: 1em;
+    }
