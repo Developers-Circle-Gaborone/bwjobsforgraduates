@@ -1,0 +1,48 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "rmoswela",
+      "name": "reu_the_joker",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22495555?v=4",
+      "profile": "https://github.com/rmoswela",
+      "contributions": [
+        "ideas",
+        "design",
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "SidneyMachara",
+      "name": "Sidney Mac",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16288678?v=4",
+      "profile": "https://github.com/SidneyMachara",
+      "contributions": [
+        "bug",
+        "doc",
+        "review"
+      ]
+    },
+    {
+      "login": "Kesego23",
+      "name": "Kesego23",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/38880602?v=4",
+      "profile": "https://github.com/Kesego23",
+      "contributions": [
+        "eventOrganizing",
+        "doc",
+        "example"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "bwjobsforgraduates",
+  "projectOwner": "Developers-Circle-Gaborone",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
