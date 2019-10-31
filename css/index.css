@@ -99,9 +99,11 @@
 
     }
 
+
     .btn-txt-primary {
       color: #229C58;
     }
+
 
     .btn-dark {
       background: #202020;
@@ -386,6 +388,7 @@
     }
 
     @media only screen and (max-width: 600px) {
+
       /* landing page */
       .landin-page_left {
         width: 80%;
@@ -402,6 +405,7 @@
       }
 
       /* newsletter */
+
       .newsletter-container__left {
         display: none;
 
@@ -411,6 +415,5 @@
         margin-right: auto;
 
       }
-
 
     }
