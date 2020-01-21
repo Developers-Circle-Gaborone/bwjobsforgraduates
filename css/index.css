@@ -12,6 +12,7 @@
     - list
     - navbar
     - buttons
+    - tags
     - cards
     - forms
     - footer
@@ -42,14 +43,16 @@
     [type=email].form-control:focus,
     [type=tel].form-control:focus,
     [contenteditable].form-control:focus {
-      box-shadow: inset 0 -1px 0 #229C58;
+
+      box-shadow: inset 0 -1px 0 #28a745;
+
     }
 
 
     /* colors */
 
     .bg-primary {
-      background: #229C58;
+      background: #28a745;
     }
 
     .bg-dark {
@@ -86,13 +89,13 @@
 
     /* navbar */
     .active {
-      color: #229C58 !important;
+      color: #28a745 !important;
     }
 
     /* buttons */
     .btn-primary {
-      border: 1px solid #229C58;
-      background: #229C58;
+      border: 1px solid #28a745;
+      background: #28a745;
     }
 
     .btn-primary:hover {
@@ -101,7 +104,9 @@
 
 
     .btn-txt-primary {
-      color: #229C58;
+
+      color: #28a745;
+
     }
 
 
@@ -110,15 +115,90 @@
     }
 
     .btn-outline-primary {
-      color: #229C58;
-      border: 1px solid #229C58;
+      color: #28a745;
+      border: 1px solid #28a745;
+    }
+
+    /* tags */
+    .tags{
+      border:solid 1px #33bf65;
+      color:#405243; 
+      padding:.5rem 1.2rem; 
+      border-radius:1.2rem; 
+      font-size: 75%; 
+      line-height: 3.5;
     }
 
     /* cards */
 
+
+
+
     /* forms */
 
-    /* footer */
+
+
+    /* testimonial */
+
+    .testimonial__card {
+      padding: 24px;
+    }
+    .testimonial__text {
+      text-align: center;
+      font-weight: lighter;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      color: #aaa;
+    }
+
+    .testimonial__card-active {
+      background: black;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    .testimonial__card-active::after {
+      content: "";
+      position: relative;
+      display: table;
+      bottom: -40px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      /* triangle shape */
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 20px solid black;
+    }
+
+    .testimonial__body {
+      margin-top: 35px;
+    }
+
+    .testimonial__img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .testimonial__name {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+
+    .testimonial__title {
+      text-align: center;
+      font-weight: lighter;
+    }
+    /* Footer */
+
     .footer__link {
       font-size: 15px;
       font-weight: 100;
@@ -180,76 +260,6 @@
       background: #0B7BB5;
       border: 1px solid #0B7BB5;
     }
-
-    .copy-right {
-
-    }
-    .copy-right__text {
-      font-size: 15px;
-      font-weight: 100;
-      text-align: center;
-    }
-
-    /* testimonial */
-
-    .testimonial__card {
-      padding: 24px;
-    }
-    .testimonial__text {
-      text-align: center;
-      font-weight: lighter;
-      margin-bottom: 0;
-      padding-bottom: 0;
-      color: #aaa;
-    }
-
-    .testimonial__card-active {
-      background: black;
-      border-radius: 10px;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
-    .testimonial__card-active::after {
-      content: "";
-      position: relative;
-      display: table;
-      bottom: -40px;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-      /* triangle shape */
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 20px solid black;
-    }
-
-    .testimonial__body {
-      margin-top: 35px;
-    }
-
-    .testimonial__img {
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-      display: table;
-      margin-left: auto;
-      margin-right: auto;
-
-    }
-
-    .testimonial__name {
-      text-align: center;
-      font-weight: bold;
-      margin-bottom: 2px;
-    }
-
-    .testimonial__title {
-      text-align: center;
-      font-weight: lighter;
-    }
-
 
  /* *****************
     LAYOUTS
@@ -359,7 +369,7 @@
       padding: 0;
       /* height: 100vh; */
       /* width: 100vw; */
-      background-color: #FCE9DB;
+      background-color: #28a745;
     }
 
     .newsletter-container__right {
@@ -387,6 +397,35 @@
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
 
+    
+
+
+    /*************************** Header *******************************/
+    .header{
+      width: 100vw;
+      height: 25rem;
+
+      background-image: url('../images/bwjobs.jpeg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .header-overlay{
+      width: 100vw;
+      height: 25rem;
+      background-color: rgb(0, 0, 0, .5);
+    }
+
+    
+    .copy-right {
+
+    }
+    .copy-right__text {
+      font-size: 15px;
+      font-weight: 100;
+      text-align: center;
+    }
     @media only screen and (max-width: 600px) {
 
       /* landing page */

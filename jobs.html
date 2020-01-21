@@ -1,91 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
+
+  <head>
     <meta charset="utf-8">
-    <title>bw-jobs</title>
+    <title>Bw Jobs For Graduates</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" >
     <link rel="stylesheet" href="css/jobs.css" >
+    
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="col-lg-8  ">
-        <!--------------------------------   JOB CARD   ----------------------------------->
-        <div class="card job_card">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <a href="#" style="color:inherit;">
-                <h3 class="job_title" >IT Intern</h3 >
-              </a>
-              <a class="company_name" href="#">IT SOLUTIONS BW</a >
-              <div>
-                <span class="location">Gaborone</span>
-                <span class="divider">|</span>
-                <span class="duration">Full Time</span>
-                <span class="divider">|</span>
-                <span class="salary">BWP 150,000 - 250,000</span>
-              </div>
-              <div style="display: inline-flex; width: 100%">
-                <h6 class="job_function" >Job Function: IT & Software</h6>
-                <h6 style="text-align:right ;width:50%">2h</h6>
-              </div>
-            </li>
-            <li class="list-group-item">
-              <span class="job_summary">
-                <div class="company_logo_container">
-                  <div class="company_logo">
-                    <a href="#"><img src="img/intel_logo.png" /></a>
+
+    <!-- landing-screen -->
+    <div class="header">
+      <div class="header-overlay">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-faded py-3">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNavDropdown" class="navbar-collapse collapse">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link "  href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="#">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#">Who we are</a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link"  href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- /.navbar -->
+
+        <div class="container" style="text-align: center">
+          <div class="row">
+            <!-- landing right -->
+            <div class="col-md-12 col-12">
+              <!-- caption -->
+              <div class="landin-page_left mt-5 ">
+                  <h3 class="title pt-4">Get Hired....! Start here</h3>
+                  <div class="search-container-2">
+                    <form class="mt-5">
+                        <div class="form-group" style="display: flex">
+                          <input type="text" class="form-control search-container__input" id="keyword" placeholder="Search Keyword" required>
+                          <input type="text" class="form-control search-container__input ml-3" id="location" placeholder="Location" required>
+                          <button class="btn search-container__btn-submit ml-3" type="submit" name="search_job">SEARCH</button>
+                        </div>
+                    </form>
                   </div>
-                </div>
-                <div class="short_summary">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
-              </span>
-            </li>
-          </ul>
-        </div>
-        <!--------------------------------   ./JOB CARD   ----------------------------------->
-        <!--------------------------------   JOB CARD   ----------------------------------->
-        <div class="card job_card">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <a href="#" style="color:inherit;">
-                <h3 class="job_title" >IT Intern</h3 >
-              </a>
-              <a class="company_name" href="#">IT SOLUTIONS BW</a >
-              <div>
-                <span class="location">Gaborone</span>
-                <span class="divider">|</span>
-                <span class="duration">Full Time</span>
-                <span class="divider">|</span>
-                <span class="salary">BWP 150,000 - 250,000</span>
+                  <!-- <div class="job-info pt-5 " style=" color:white; text-align: center">
+                    <span class="badge f" style="border:solid 1px white; padding:.5rem 1.2rem; border-radius:1.2rem">PART TIME</span>
+                    <span class="badge f"><i class="fa fa-map-marker f2" style="padding:0 0.5rem"></i>Gaborone, Botswana</span>
+                    <span class="badge f"><i class="fa fa-calendar f2" style="padding:0 0.5rem"></i>Posted 4 years ago</span>
+                  </div> -->
+                  
+                  
               </div>
-              <div style="display: inline-flex; width: 100%">
-                <h6 class="job_function" >Job Function: IT & Software</h6>
-                <h6 style="text-align:right ;width:50%">2h</h6>
-              </div>
-            </li>
-            <li class="list-group-item">
-              <span class="job_summary">
-                <div class="company_logo_container">
-                  <div class="company_logo">
-                    <a href="#"><img src="img/intel_logo.png" /></a>
-                  </div>
-                </div>
-                <div class="short_summary">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
-              </span>
-            </li>
-          </ul>
+              <!-- /.caption -->
+            </div>
+            <!-- /.landing right -->
+
+            
+          </div>
         </div>
-        <!--------------------------------   ./JOB CARD   ----------------------------------->
+
+
       </div>
     </div>
-  
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/index.js" > </script>
+    <!-- /. landing-screen -->
 
 
+    <!-- job details -->
+    <section class="container py-5">
+        <div class="row">
+          <!-- Filter section -->
+          <aside class="col-lg-3 column">
+            <div class="widget border">
+              <h3 class="sb-title open">Date Posted</h3>
+              <div class="posted_widget" style="">
+                <input type="radio" name="choose" id="232"><label for="232">Last Hour</label><br>
+                <input type="radio" name="choose" id="wwqe"><label for="wwqe">Last 24 hours</label><br>
+                <input type="radio" name="choose" id="erewr"><label for="erewr">Last 7 days</label><br>
+                <input type="radio" name="choose" id="qwe"><label for="qwe">Last 14 days</label><br>
+                <input type="radio" name="choose" id="wqe"><label for="wqe">Last 30 days</label><br>
+                <input type="radio" name="choose" id="qweqw"><label class="nm" for="qweqw">All</label><br>
+              </div>
+            </div>
+            <div class="widget border">
+              <h3 class="sb-title open">Job Type</h3>
+              <div class="type_widget" style="">
+                <p class="flchek"><input type="checkbox" name="choosetype" id="33r"><label for="33r">Freelance (9)</label></p>
+                <p class="ftchek"><input type="checkbox" name="choosetype" id="dsf"><label for="dsf">Full Time (8)</label></p>
+                <p class="ischek"><input type="checkbox" name="choosetype" id="sdd"><label for="sdd">Internship (8)</label></p>
+                <p class="ptchek"><input type="checkbox" name="choosetype" id="sadd"><label for="sadd">Part Time (5)</label></p>
+                <p class="tpchek"><input type="checkbox" name="choosetype" id="assa"><label for="assa">Temporary (5)</label></p>
+                <p class="vtchek"><input type="checkbox" name="choosetype" id="ghgf"><label for="ghgf">Volunteer (8)</label></p>
+              </div>
+            </div>
+            <div class="widget border">
+              <h3 class="sb-title open">Specialism</h3>
+              <div class="specialism_widget" style="">
+                <div class="simple-checkbox scrollbar ss-container"><div class="ss-wrapper"><div class="ss-content">
+                  <p><input type="checkbox" name="spealism" id="as"><label for="as">Accountancy (2)</label></p>
+                  <p><input type="checkbox" name="spealism" id="asd"><label for="asd">Banking (2)</label></p>
+                  <p><input type="checkbox" name="spealism" id="errwe"><label for="errwe">Charity &amp; Voluntary (3)</label></p>
+                  <p><input type="checkbox" name="spealism" id="fdg"><label for="fdg">Digital &amp; Creative (4)</label></p>
+                  <p><input type="checkbox" name="spealism" id="sc"><label for="sc">Estate Agency (3)</label></p>
+                  <p><input type="checkbox" name="spealism" id="aw"><label for="aw">Graduate (2)</label></p>
+                  <p><input type="checkbox" name="spealism" id="ui"><label for="ui">IT Contractor (7)</label></p>
+                  <p><input type="checkbox" name="spealism" id="saas"><label for="saas">Charity &amp; Voluntary (3)</label></p>
+                  <p><input type="checkbox" name="spealism" id="rrrt"><label for="rrrt">Digital &amp; Creative (4)</label></p>
+                  <p><input type="checkbox" name="spealism" id="eweew"><label for="eweew">Estate Agency (3)</label></p>
+                  <p><input type="checkbox" name="spealism" id="bnbn"><label for="bnbn">Graduate (2)</label></p>
+                  <p><input type="checkbox" name="spealism" id="ffd"><label for="ffd">IT Contractor (7)</label></p>
+                </div></div><div class="ss-scroll" style="height: 53.3333%; top: 0%; right: -234px;"></div></div>
+              </div>
+            </div>
+          
+          </aside>
+          
+          
+          <div class="col-md-8 col-lg-8">
+              <div class="job-info mb-4  " style="text-align: left">
+                  <span class="f tags">Intern</span>
+                  <span class="f tags">Information Technology</span>
+                  <span class="f tags" >All Locations</span>
+                  <span class="f tags"> 2 weeks ago </span>
+                  <span class="f tags">Computer science</span>
+                  <span class="f tags">Engineering</span>
+                </div>
+            <!--------------------------------   JOB CARD   ----------------------------------->
+            <div class="card job_card">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a href="#" style="color:inherit;">
+                      <h3 class="job_title" >IT Intern</h3 >
+                    </a>
+                    <a class="company_name" href="#">IT SOLUTIONS BW</a >
+                    <div>
+                      <span class="location">Gaborone</span>
+                      <span class="divider">|</span>
+                      <span class="duration">Full Time</span>
+                      <span class="divider">|</span>
+                      <span class="salary">BWP 150,000 - 250,000</span>
+                    </div>
+                    <div style="display: inline-flex; width: 100%">
+                      <h6 class="job_function" >Job Function: IT & Software</h6>
+                      <h6 style="text-align:right ;width:50%">2h</h6>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="job_summary">
+                      <div class="company_logo_container">
+                        <div class="company_logo">
+                          <a href="#"><img src="img/intel_logo.png" /></a>
+                        </div>
+                      </div>
+                      <div class="short_summary">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <!--------------------------------   ./JOB CARD   ----------------------------------->
+              <!--------------------------------   JOB CARD   ----------------------------------->
+            <div class="card job_card">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a href="#" style="color:inherit;">
+                      <h3 class="job_title" >Accounts Manager</h3 >
+                    </a>
+                    <a class="company_name" href="#">IT SOLUTIONS BW</a >
+                    <div>
+                      <span class="location">Gaborone</span>
+                      <span class="divider">|</span>
+                      <span class="duration">Full Time</span>
+                      <span class="divider">|</span>
+                      <span class="salary">BWP 150,000 - 250,000</span>
+                    </div>
+                    <div style="display: inline-flex; width: 100%">
+                      <h6 class="job_function" >Job Function: IT & Software</h6>
+                      <h6 style="text-align:right ;width:50%">2h</h6>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="job_summary">
+                      <div class="company_logo_container">
+                        <div class="company_logo">
+                          <a href="#"><img src="img/intel_logo.png" /></a>
+                        </div>
+                      </div>
+                      <div class="short_summary">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <!--------------------------------   ./JOB CARD   ----------------------------------->
+              <!--------------------------------   JOB CARD   ----------------------------------->
+            <div class="card job_card">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a href="#" style="color:inherit;">
+                      <h3 class="job_title" >Accounts Manager</h3 >
+                    </a>
+                    <a class="company_name" href="#">IT SOLUTIONS BW</a >
+                    <div>
+                      <span class="location">Gaborone</span>
+                      <span class="divider">|</span>
+                      <span class="duration">Full Time</span>
+                      <span class="divider">|</span>
+                      <span class="salary">BWP 150,000 - 250,000</span>
+                    </div>
+                    <div style="display: inline-flex; width: 100%">
+                      <h6 class="job_function" >Job Function: IT & Software</h6>
+                      <h6 style="text-align:right ;width:50%">2h</h6>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="job_summary">
+                      <div class="company_logo_container">
+                        <div class="company_logo">
+                          <a href="#"><img src="img/intel_logo.png" /></a>
+                        </div>
+                      </div>
+                      <div class="short_summary">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <!--------------------------------   ./JOB CARD   ----------------------------------->
+              <!--------------------------------   JOB CARD   ----------------------------------->
+            <div class="card job_card">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a href="#" style="color:inherit;">
+                      <h3 class="job_title" >Accounts Manager</h3 >
+                    </a>
+                    <a class="company_name" href="#">IT SOLUTIONS BW</a >
+                    <div>
+                      <span class="location">Gaborone</span>
+                      <span class="divider">|</span>
+                      <span class="duration">Full Time</span>
+                      <span class="divider">|</span>
+                      <span class="salary">BWP 150,000 - 250,000</span>
+                    </div>
+                    <div style="display: inline-flex; width: 100%">
+                      <h6 class="job_function" >Job Function: IT & Software</h6>
+                      <h6 style="text-align:right ;width:50%">2h</h6>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="job_summary">
+                      <div class="company_logo_container">
+                        <div class="company_logo">
+                          <a href="#"><img src="img/intel_logo.png" /></a>
+                        </div>
+                      </div>
+                      <div class="short_summary">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <!--------------------------------   ./JOB CARD   ----------------------------------->
+          </div>
 
+          
+
+        </div>
+
+    </section>
+    <!-- /. job details -->
+
+    
+
+    <!-- footer -->
+    <footer id="footer" class="bg-dark py-4">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-4 col-12">
+            <h4>About</h4>
+
+            <p class="footer__txt txt-grey py-2">
+              We are an NGO whoes sole purpose is to provide employment oppotunites for Botswana graduates.
+             </p>
+
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="col-md-3 col-12">
+            <h4>Information</h4>
+
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="#" class="footer__link txt-grey"> > Donation </a></li>
+              <li class="footer__list-item"><a href="#" class="footer__link txt-grey"> > Privacy </a></li>
+              <li class="footer__list-item"><a href="#" class="footer__link txt-grey"> > Terms & Conditions </a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12">
+            <h4>Hot Links</h4>
+
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="#" class="footer__link txt-grey"> > Blog </a></li>
+              <li class="footer__list-item"><a href="#" class="footer__link txt-grey"> > Testimonial </a></li>
+              <li class="footer__list-item"><a href="#" class="footer__link txt-grey"> > Contact us </a></li>
+              <li class="footer__list-item"><a href="#" class="footer__link txt-grey"> > Job Listings </a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-12">
+            <h4>Have a Question ?</h4>
+
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__link txt-grey">
+                  <i class="fa fa-map-marker mr-3"></i>  Gaborone,Botswana
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link txt-grey">
+                  <i class="fa fa-phone mr-2"></i>  +267 7000000
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="bwjobs4grads@gmail.com" class="footer__link txt-grey">
+                  <i class="fa fa-envelope mr-2"></i>  bwjobs4grads@gmail.com
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="bwjobs4grads@gmail.com" class="footer__link txt-grey">
+                  <i class="fa fa-envelope mr-2"></i>  <li class="footer__list-item">
+                <a href="m.me/BwJobs4Graduates" class="footer__link txt-grey">
+                  <i class="fa fa-facebook-messenger"></i>  Messenger/BwJobs4Graduates
+                </a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- social-icons -->
+        <div class="footer__social-icons-bar">
+          <div class="mx-auto d-table py-5">
+
+              <a href="https://www.facebook.com/bwjobsfor.graduates" target="_blank" class="footer__social-icon footer__social-icon-facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com/BWJOBS4GRADS" class="footer__social-icon footer__social-icon-twitter">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="bwjobs4grads@gmail.com" class="footer__social-icon footer__social-icon-google-plus">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="#" class="footer__social-icon footer__social-icon-linked">
+                <i class="fa fa-linkedin"></i>
+              </a>
+
+          </div>
+        </div>
+        <!-- /. social-icons -->
+
+        <!-- copyright -->
+        <div class="copy-right pb-2">
+          <p class="copy-right__text txt-grey">&copy All Rights Reserved</p>
+        </div>
+        <!-- /. copyright -->
+      </div>
+    </footer>
+    <!-- /. footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    
   </body>
 </html>
+
+  
