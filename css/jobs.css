@@ -3,6 +3,7 @@ body{
 	color: #4e5559;
 }
 
+
 .search-container-2 {
 	width: 50%;
 	margin-bottom: 4rem;
@@ -25,7 +26,6 @@ padding: .3rem;
 .job_card:hover{
 	box-shadow: 2px 4px 5px #888888;
 	margin-bottom: 1rem;
-}
 
 .job_summary{
 	position:relative;
@@ -57,7 +57,8 @@ padding: .3rem;
 	padding:0px 5px;
 }
 
-.company_logo{
+
+.company_logo.{
 	border-radius:50%; 
 	overflow: hidden;
 }
@@ -241,3 +242,4 @@ input[type="checkbox"]:checked + label::after, input[type="radio"]:checked + lab
     transform: scale(1);
 
 }
+
