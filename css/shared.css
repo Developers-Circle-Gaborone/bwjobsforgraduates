@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+:root {
+  --main-color: #00b0ff;
+}
+
+html {
+  height: 100%;
+}
+
 body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
   height: 100%;
   display: grid;
   grid-template-rows: 3rem auto fit-content(5rem);
@@ -10,4 +22,50 @@ body {
 
 main{
   grid-area: main;
+}
+
+/* ============
+Header CSS
+=============== */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header_brand {
+  text-decoration: none;
+  color: var(--main-color, lightblue);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  vertical-align: middle;
+}
+
+.main-header_brand img {
+  height: 2rem;
+  vertical-align: middle;
+}
+
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.toggle-button_bar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.6rem 0;
+}
+
+.main-nav {
+  display: none;
 }
