@@ -1,0 +1,13 @@
+body {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 3rem auto fit-content(5rem);
+  grid-template-areas:  "header"
+                        "main"
+                        "footer";
+  padding-top: 0;
+}
+
+main{
+  grid-area: main;
+}
