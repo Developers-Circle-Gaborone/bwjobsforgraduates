@@ -79,6 +79,10 @@ Header Styling
   vertical-align: middle;
 }
 
+.toggle-button:focus {
+  outline: none;
+}
+
 .toggle-button_bar {
   width: 100%;
   height: 0.2rem;
