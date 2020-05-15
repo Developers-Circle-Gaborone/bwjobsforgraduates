@@ -1,0 +1,8 @@
+#service-overview {
+  background-image: url('/images/meetup-groupPic.jpeg');
+  background-size: cover;
+  background-position: 70% 55%;
+  padding: 0.62rem;
+  height: 60vh;
+  position: relative;
+}
