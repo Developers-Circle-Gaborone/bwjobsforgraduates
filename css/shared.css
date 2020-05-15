@@ -40,8 +40,8 @@ Header Styling
   text-decoration: none;
   color: var(--white-color, #00b0ff);
   font-weight: bold;
-  font-size: 1.5rem;
-  margin-left: 1.5rem;
+  font-size: 1rem;
+  margin-left: 1rem;
   vertical-align: middle;
 }
 
@@ -94,5 +94,5 @@ Footer Styling
 
 .main-footer__link {
   margin: 0.2rem 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 }
