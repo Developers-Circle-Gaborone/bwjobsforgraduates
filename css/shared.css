@@ -79,7 +79,7 @@ Footer Styling
 .main-footer {
   grid-area: footer;
   background: #1de9b6;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .main-footer__links {
@@ -95,4 +95,22 @@ Footer Styling
 .main-footer__link {
   margin: 0.2rem 0.5rem;
   font-size: 0.7rem;
+}
+
+@media (min-width: 40rem){
+
+  .main-header_brand {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .toggle-button {
+    width: 0;
+    cursor: none;
+  }
+
+  .main-footer__link {
+    margin: 0.2rem 0.5rem;
+    font-size: 1rem;
+  }
 }
