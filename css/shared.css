@@ -3,6 +3,7 @@
 :root {
   --main-color: #00b0ff;
   --white-color: white;
+  --black-color: black;
 }
 
 html {
@@ -72,6 +73,26 @@ Header Styling
   display: none;
 }
 
+.main-nav_item {
+  margin: 0 0.5rem;
+}
+
+.main-nav_item a,
+.mobile-nav_item a {
+  color: var(--white-color);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.12rem 0;
+}
+
+.main-nav_item a:hover,
+.main-nav_item a:active,
+.mobile-nav_item a:hover,
+.mobile-nav_item a:active {
+  color: var(--black-color);
+  border-bottom: 0.12rem solid var(--black-color);
+}
+
 /* ==========
 Footer Styling
 ============ */
@@ -100,8 +121,8 @@ Footer Styling
 @media (min-width: 40rem){
 
   .main-header_brand {
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    margin-left: 0rem;
   }
 
   .toggle-button {
@@ -109,8 +130,23 @@ Footer Styling
     cursor: none;
   }
 
+  .main-nav {
+    display: flex;
+  }
+
+  .main-nav_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+
+  .main-nav_item {
+    font-size: 0.8rem;
+  }
+
   .main-footer__link {
     margin: 0.2rem 0.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
