@@ -1,11 +1,11 @@
-#service-overview {
+.service-overview {
   background: #40c4ff;
   padding: 0.62rem;
   height: 28vh;
   position: relative;
 }
 
-#service-overview::after {
+.service-overview::after {
   position: absolute;
   width: 100%;
   height: 100%;
