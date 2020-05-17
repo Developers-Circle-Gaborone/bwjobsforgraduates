@@ -64,6 +64,11 @@
   color: white;
 }
 
+@media (min-width: 64rem) {
+  .service-overview_slogan-container {
+    display: block;
+  }
+}
 
 @keyframes animateWave {
   0% {
