@@ -200,8 +200,49 @@ Footer Styling
     font-size: 0.8rem;
   }
 
+  .main-nav_item a {
+    padding: 0.12rem 0.05rem;
+  }
+
   .main-footer__link {
     margin: 0.2rem 0.5rem;
     font-size: 0.8rem;
   }
+}
+
+  @media (min-width: 64rem){
+
+    .main-header_brand {
+      font-size: 1.3rem;
+      margin-left: 0rem;
+    }
+  
+    .toggle-button {
+      width: 0;
+      cursor: none;
+    }
+  
+    .main-nav {
+      display: flex;
+    }
+  
+    .main-nav_items {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+    }
+  
+    .main-nav_item {
+      font-size: 1rem;
+    }
+
+    .main-nav_item a {
+      padding: 0.12rem 0.7rem;
+    }
+  
+    .main-footer__link {
+      margin: 0.2rem 0.5rem;
+      font-size: 0.8rem;
+    }
 }
