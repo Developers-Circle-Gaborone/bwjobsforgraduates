@@ -58,11 +58,15 @@
 }
 
 .service-overview__title {
+  margin-top: 0;
+  font-size: 0.9rem;
   color: white;
 }
 
 .service-overview__para {
+  font-size: 0.7rem;
   color: white;
+  z-index: 4;
 }
 
 .jobs {
@@ -72,7 +76,7 @@
 .jobs-title {
   color: black;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .job-category_list {
@@ -87,12 +91,32 @@
 }
 
 .jobs-category_title {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 @media (min-width: 64rem) {
   .service-overview_slogan-container {
     display: block;
+    position: absolute;
+    top: -5%;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .service-overview_slogan {
+    /* position: absolute; */
+    /* top: -5%; */
+    right: 45%;
+    /* width: 25%; */
+    /* z-index: 3; */
+  }
+  
+  .service-overview_slogan2 {
+    /* position: absolute; */
+    /* top: -5%; */
+    /* width: 25%; */
+    right: 20%;
+    /* z-index: 3; */
   }
 }
 
