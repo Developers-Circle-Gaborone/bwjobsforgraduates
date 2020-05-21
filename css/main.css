@@ -131,6 +131,10 @@
   width: 60%;
 }
 
+.jobs-category_job__details__title {
+  font-size: 0.9rem;
+}
+
 .jobs-category_job__details__time img {
   width: 6%;
 }
