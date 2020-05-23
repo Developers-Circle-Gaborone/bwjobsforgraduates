@@ -74,7 +74,7 @@
 }
 
 .jobs-title {
-  color: black;
+  color: #0091ea;
   text-align: center;
   font-size: 1rem;
 }
@@ -96,6 +96,7 @@
 }
 
 .jobs-category_title {
+  color: #00b0ff;
   font-size: 0.9rem;
 }
 
@@ -159,6 +160,7 @@
 }
 
 .employers-title {
+  color: #0091ea;
   font-size: 1rem;
   text-align: center;
   padding: 1rem;
