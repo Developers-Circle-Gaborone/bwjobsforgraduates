@@ -80,7 +80,7 @@
   font-size: 1rem;
 }
 
-.process-list_right-job {
+.process-list_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,7 @@
   margin: 1rem 0;
 }
 
-.process-list_right-job__icon {
+.process-list_section__icon {
   width: 10%;
   background-color: aquamarine;
   border: 0.12rem solid #ea80fc;
@@ -99,17 +99,17 @@
   padding: 1rem;
 }
 
-.process-list_right-job__icon img{
+.process-list_section__icon img{
   width: 100%;
 }
 
-.process-list_right-job_title h2 {
+.process-list_section__title h2 {
   color: #00b0ff;
   font-size: 0.9rem;
   margin: 0.5rem 0;
 }
 
-.process-list_right-job_message p{
+.process-list_section__message p{
   font-size: 0.8rem;
   text-align: center;
   margin: 0.5rem 0;
