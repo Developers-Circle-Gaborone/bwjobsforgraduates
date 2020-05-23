@@ -69,6 +69,52 @@
   z-index: 4;
 }
 
+.process {
+  background-color: #ffffff;
+  margin: 2rem 2rem;
+}
+
+.process-title {
+  color: #0091ea;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.process-list_right-job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e0e0e0;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem #00b0ff;
+  margin: 1rem 0;
+}
+
+.process-list_right-job__icon {
+  width: 10%;
+  background-color: aquamarine;
+  border: 0.12rem solid #ea80fc;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.process-list_right-job__icon img{
+  width: 100%;
+}
+
+.process-list_right-job_title h2 {
+  color: #00b0ff;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.process-list_right-job_message p{
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
 .jobs {
   background-color: white;
 }
