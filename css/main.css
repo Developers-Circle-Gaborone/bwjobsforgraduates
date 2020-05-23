@@ -106,13 +106,14 @@
   margin: 0.5rem 0;
   padding: 0.5rem;
   border-radius: inherit;
-  box-shadow: 0.1rem 0.1rem 0.3rem #757575;
+  box-shadow: 0.1rem 0.1rem 0.3rem #00b0ff;
+  /* box-shadow: 0.1rem 0.1rem 0.3rem #757575; */
 }
 
 .jobs-category_job__image {
   width: 15%;
   background-color: #9e9e9e;
-  border: 0.12rem solid #757575;
+  border: 0.12rem solid #ea80fc;
   border-radius: 50%;
   padding: 1rem;
   float: left;
