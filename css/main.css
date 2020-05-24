@@ -124,7 +124,7 @@
 .jobs-title {
   color: #0091ea;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .jobs-category_list {
@@ -141,6 +141,7 @@
   background-color: #f5f5f5;
   margin: 0.5rem 0;
   border-radius: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .jobs-category_title {
