@@ -285,7 +285,7 @@
 
 .employers-title {
   color: #0091ea;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 1rem;
 }
@@ -293,6 +293,7 @@
 .employers-message {
   font-size: 0.9rem;
   padding: 0 1rem;
+  text-align: center;
 }
 
 .employers-list {
