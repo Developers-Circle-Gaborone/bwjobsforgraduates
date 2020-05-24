@@ -70,14 +70,16 @@
 }
 
 .process {
-  background-color: #ffffff;
+  background-color: #fafafa;
+  padding: 1rem 0;
   margin: 2rem 2rem;
+  border-radius: 1rem;
 }
 
 .process-title {
   color: #0091ea;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .process-list_section {
@@ -88,7 +90,7 @@
   padding: 1rem;
   border-radius: 2rem;
   box-shadow: 0.1rem 0.1rem 0.3rem #00b0ff;
-  margin: 1rem 0;
+  margin: 1rem 2rem;
 }
 
 .process-list_section__icon {
