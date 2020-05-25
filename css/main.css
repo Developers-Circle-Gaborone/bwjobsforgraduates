@@ -37,24 +37,15 @@
   display: none;
 }
 
-.service-overview_slogan-container {
-  display: none;
-}
-
-.service-overview_slogan {
+.service-overview_slogan-container img {
   position: absolute;
-  top: -5%;
-  right: 45%;
-  width: 25%;
+  width: 50%;
+  top: 65%;
   z-index: 3;
 }
 
 .service-overview_slogan2 {
-  position: absolute;
-  top: -5%;
-  width: 25%;
-  right: 20%;
-  z-index: 3;
+  right: 1%;
 }
 
 .service-overview__title {
@@ -320,25 +311,17 @@
   .service-overview_slogan-container {
     display: block;
     position: absolute;
-    top: -5%;
-    width: 100%;
+    top: 12%;
+    width: 40%;
     z-index: 3;
   }
 
   .service-overview_slogan {
-    /* position: absolute; */
-    /* top: -5%; */
-    right: 45%;
-    /* width: 25%; */
-    /* z-index: 3; */
+    left: 85%;
   }
   
   .service-overview_slogan2 {
-    /* position: absolute; */
-    /* top: -5%; */
-    /* width: 25%; */
-    right: 20%;
-    /* z-index: 3; */
+    left: 150%;
   }
 }
 
