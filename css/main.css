@@ -334,7 +334,11 @@
   }
 }
 
-/* @media (min-width: 40rem){
+/* Smartphones (landscape) ----------- */
+@media (min-width: 40rem)  and (max-width: 47.9rem){
+  .service-overview {
+    height: 70vh;
+  }
   .service-overview__img-container {
     display: block;
   }
@@ -349,25 +353,108 @@
     right: 10%;
   }
   .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .service-overview__para {
+    font-size: 1rem;
+  }
+}
+
+/* iPhone X Pixel 2XL----------- */
+@media (min-device-width: 40rem) and (max-device-height: 56rem) and (orientation : landscape){
+  .service-overview {
+    height: 70vh;
+  }
+  .service-overview__img-container {
+    display: block;
+  }
+  .service-overview_slogan-container img {
+    width: 40%;
+    top: 65%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 10%;
+  }
+  .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .service-overview__para {
+    font-size: 1rem;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 48rem) and (max-width : 64rem) and (orientation : portrait){
+  .service-overview__img-container {
+    display: block;
+  }
+  .service-overview_slogan-container img {
+    display: block;
+    width: 30%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 10%;
+  }
+  .service-overview__title {
     margin-top: 1rem;
     font-size: 1.2rem;
   }
   .service-overview__para {
     font-size: 1rem;
   }
-} */
+}
 
+/* iPhone X and Pixel 2XL landscape ----------- */
+@media (min-width: 52rem) and (max-width : 64rem) and (orientation : landscape){
+  .service-overview {
+    height: 45vh;
+  }
+}
+
+/* iPad Pro ----------- */
 @media (min-width: 64rem) {
-  .service-overview_slogan-container {
+  .service-overview_slogan-container img {
+    width: 30%;
+  }
+  .service-overview__title {
+    font-size: 1.6rem;
+  }
+  .service-overview__para {
+    font-size: 1.3rem;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width : 76.5rem) {
+  .service-overview__img-container {
     display: block;
-    top: 12%;
-    width: 40%;
+  }
+  .service-overview_slogan-container img {
+    width: 20%;
+    top: 65%;
+    transform-origin: center;
+    animation: animateWave 7000ms cubic-bezier(0.81, 0.1, 0.49, 0.7) forwards;
   }
   .service-overview_slogan {
-    left: 85%;
+    right: 45%;
   }
   .service-overview_slogan2 {
-    left: 150%;
+    right: 20%;
+  }
+  .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .service-overview__para {
+    font-size: 1.3rem;
   }
 }
 
