@@ -314,6 +314,16 @@
   .service-overview__img-container {
     display: block;
   }
+  .service-overview_slogan-container img {
+    width: 30%;
+    top: 65%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 20%;
+  }
 }
 
 @media (min-width: 64rem) {
