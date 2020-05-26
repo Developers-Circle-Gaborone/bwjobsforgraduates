@@ -29,7 +29,6 @@
   width: 170px;
   /* height: 90%; */
   background-position: right;
-  transform: rotateZ(9deg);
   transform: rotateZ(11deg);
   animation: animatePotraitPic 11000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
   display: none;
