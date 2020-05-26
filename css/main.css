@@ -30,11 +30,11 @@
   /* height: 90%; */
   background-position: right;
   transform: rotateZ(9deg);
+  display: none;
 }
 
 .service-overview__img {
   width: 100%;
-  display: none;
 }
 
 .service-overview_slogan-container img {
@@ -307,6 +307,12 @@
 .employers-button{
   text-align: center;
   padding: 0.8rem 0;
+}
+
+@media (min-width: 40rem){
+  .service-overview__img-container {
+    display: block;
+  }
 }
 
 @media (min-width: 64rem) {
