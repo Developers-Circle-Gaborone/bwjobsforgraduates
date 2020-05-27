@@ -310,26 +310,46 @@
   padding: 0.8rem 0;
 }
 
-@media (min-width: 40rem){
-  .service-overview__img-container {
-    display: block;
-  }
+@media (min-width: 30rem){
   .service-overview_slogan-container img {
-    width: 30%;
+    width: 40%;
     top: 65%;
   }
   .service-overview_slogan {
     right: 50%;
   }
   .service-overview_slogan2 {
-    right: 20%;
+    right: 10%;
+  }
+  .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .service-overview__para {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 40rem){
+  .service-overview__img-container {
+    display: block;
+  }
+  .service-overview_slogan-container img {
+    width: 40%;
+    top: 65%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 10%;
   }
   .service-overview__title {
     margin-top: 1rem;
     font-size: 1.2rem;
   }
   .service-overview__para {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
