@@ -336,16 +336,12 @@
 @media (min-width: 64rem) {
   .service-overview_slogan-container {
     display: block;
-    position: absolute;
     top: 12%;
     width: 40%;
-    z-index: 3;
   }
-
   .service-overview_slogan {
     left: 85%;
   }
-  
   .service-overview_slogan2 {
     left: 150%;
   }
