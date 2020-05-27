@@ -189,6 +189,10 @@
   width: 6%;
 }
 
+.jobs-btn {
+  text-align: center;
+}
+
 .button {
   background: #00b0ff;
   color: #ffffff;
