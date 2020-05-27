@@ -465,13 +465,19 @@
   .service-overview__para {
     font-size: 1.3rem;
   }
+  .process {
+    margin: 2rem 3rem;
+  }
+  .process-title {
+    font-size: 1.6rem;
+  }
   .process-list {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
   }
   .process-list_section {
-    width: 31%;
+    width: 23%;
   }
   .jobs-title {
     font-size: 1.8rem;
