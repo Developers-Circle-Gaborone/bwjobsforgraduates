@@ -310,7 +310,11 @@
   padding: 0.8rem 0;
 }
 
-@media (min-width: 30rem){
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-device-width: 30rem) and (max-device-width : 40rem) {
+  .service-overview {
+    height: 70vh;
+  }
   .service-overview_slogan-container img {
     width: 40%;
     top: 65%;
@@ -330,7 +334,7 @@
   }
 }
 
-@media (min-width: 40rem){
+/* @media (min-width: 40rem){
   .service-overview__img-container {
     display: block;
   }
@@ -351,7 +355,7 @@
   .service-overview__para {
     font-size: 1rem;
   }
-}
+} */
 
 @media (min-width: 64rem) {
   .service-overview_slogan-container {
