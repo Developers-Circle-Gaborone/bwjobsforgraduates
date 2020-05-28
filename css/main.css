@@ -545,6 +545,23 @@
   .testimonials-list_nav-btn__btn {
     padding: 0.4rem;
   }
+  .employers-title {
+    font-size: 1.6rem;
+    padding-bottom: 0;
+  }
+  .employers-message {
+    font-size: 1.1rem;
+  }
+  .employers-list {
+    flex-direction: row;
+  }
+  .employers-list_image {
+    padding: 0.6rem;
+    width: 100%;
+  }
+  .employers-list_image img {
+    width: 90%;
+  }
 }
 
 @keyframes animatePotraitPic {
