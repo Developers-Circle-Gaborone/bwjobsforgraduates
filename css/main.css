@@ -240,6 +240,12 @@
   width: 60%;
 }
 
+.testimonials-list_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .testimonials-list_testimony__name h2 {
   font-size: 0.9rem;
   border-bottom: 0.15rem solid #40c4ff;
