@@ -447,7 +447,7 @@
     font-size: 1.3rem;
   }
   .process {
-    margin: 2rem 3rem;
+    margin: 2rem 2rem;
   }
   .process-title {
     font-size: 1.6rem;
@@ -458,7 +458,8 @@
     justify-content: center;
   }
   .process-list_section {
-    width: 23%;
+    width: 33%;
+    margin: 1rem 1rem;
   }
 }
 
