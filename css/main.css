@@ -278,6 +278,7 @@
 }
 
 .testimonials-list_nav-btn__btn{
+  cursor: pointer;
   padding: 0.3rem;
   border-radius: 50%;
   background-color: #ffffff;
