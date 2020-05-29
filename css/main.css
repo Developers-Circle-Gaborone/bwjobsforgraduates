@@ -406,7 +406,7 @@
   }
 }
 
-/* iPads (portrait and landscape) ----------- */
+/* iPad portrait ----------- */
 @media (min-width: 48rem) and (max-width : 64rem) and (orientation : portrait){
   .service-overview__img-container {
     display: block;
@@ -427,6 +427,21 @@
   }
   .service-overview__para {
     font-size: 1rem;
+  }
+  .process {
+    margin: 2rem 2rem;
+  }
+  .process-title {
+    font-size: 1.6rem;
+  }
+  .process-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .process-list_section {
+    width: 33%;
+    margin: 1rem 1rem;
   }
 }
 
