@@ -176,6 +176,8 @@
 .jobs-category_job__details {
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
   padding: 10% 2% 10% 7%;
   font-size: 0.7rem;
   width: 60%;
