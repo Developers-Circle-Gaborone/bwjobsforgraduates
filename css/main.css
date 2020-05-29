@@ -461,6 +461,30 @@
     width: 33%;
     margin: 1rem 1rem;
   }
+  .jobs-title {
+    font-size: 1.8rem;
+  }
+  .jobs-category_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .jobs-category {
+    width: 31%;
+    margin: 0.5rem 0.5rem;
+  }
+  .jobs-category_title {
+    font-size: 1.3rem;
+  }
+  .jobs-category_job__image {
+    width: 15%;
+  }
+  .jobs-category_job__details {
+    font-size: 0.8rem;
+  }
+  .jobs-category_job__details__title {
+    font-size: 1rem;
+  }
 }
 
 /* Desktops and laptops ----------- */
