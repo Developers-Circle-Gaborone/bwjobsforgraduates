@@ -3,11 +3,28 @@ body{
 	color: #4e5559;
 }
 
+.search-container-2 {
+	width: 50%;
+	margin-bottom: 4rem;
+	margin: auto;
+  }
+
+.search-container__btn-submit {
+padding: .3rem;
+}
+
+
 /*************************** JOB CARD ************************/
 .job_card{
 	font-size: .875rem;
-	margin-bottom: 2rem;
+	margin-bottom: 0.5rem;
+	box-shadow: 1px 0.5px 0px #888888;
+	cursor: pointer;
+}
+
+.job_card:hover{
 	box-shadow: 2px 4px 5px #888888;
+	margin-bottom: 1rem;
 }
 
 .job_summary{
@@ -40,7 +57,7 @@ body{
 	padding:0px 5px;
 }
 
-.company_logo.{
+.company_logo{
 	border-radius:50%; 
 	overflow: hidden;
 }
@@ -56,7 +73,171 @@ body{
 .short_summary{
 	vertical-align: middle;
 	line-height: 21px;
-	padding: 20px;
+	padding: 10px;
 }
 
 /*************************** ./JOB CARD ******************************/
+
+.widget {
+    float: left;
+    width: 100%;
+}
+aside .widget {
+    margin-top: 25px;
+}
+aside .widget:first-child {
+    margin: 0;
+}
+.widget.border {
+    border: 2px solid #e6e7ef;
+    padding: 18px 20px;
+    
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+}
+aside .widget.border {
+    margin-top: 10px;
+}
+.widget > h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    color: #202020;
+    font-weight: 500;
+}
+
+.sb-title {
+    float: left;
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 15px;
+    color: #111111;
+    margin: 0;
+    position: relative;
+    padding-right: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.sb-title::before {
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 20px;
+    height: 1px;
+    background: #222222;
+    content: "";
+}
+
+aside .widget > div {
+    margin-top: 15px;
+}
+
+.posted_widget {
+    float: left;
+    width: 100%;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    margin: 0;
+}
+.posted_widget label {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 16px;
+    padding-left: 30px;
+}
+label {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 0 2em;
+    padding-left: 2em;
+    margin-right: 10px;
+    height: 1.5em;
+    line-height: 1.5;
+    cursor: pointer;
+    vertical-align: baseline;
+    border: 0;
+}
+
+
+input[type="checkbox"]:checked + label::before, input[type="radio"]:checked + label::before {
+
+    background: #ffffff;
+    border-color: #e6e7ef;
+
+}
+
+input[type="radio"] + label::before {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+label::before {
+    content: " ";
+    border: 2px solid #e6e7ef;
+        border-top-color: rgb(230, 231, 239);
+        border-right-color: rgb(230, 231, 239);
+        border-bottom-color: rgb(230, 231, 239);
+        border-left-color: rgb(230, 231, 239);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type="radio"] + label::after {
+    content: " ";
+    top: 7px;
+    left: 7px;
+    width: 6px !important;
+    height: 6px !important;
+    background: #fff;
+    border: 3px solid #fb236a;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+	
+label::before, label::after {
+    -webkit-transition: .25s all ease;
+    -moz-transition: .25s all ease;
+    -ms-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+label::before, label::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 20px !important;
+    height: 20px !important;
+
+}
+
+input[type="checkbox"]:checked + label::after, input[type="radio"]:checked + label::after {
+
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+
+}
