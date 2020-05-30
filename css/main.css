@@ -408,7 +408,7 @@
     margin: 2rem 2rem;
   }
   .process-title {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .process-list {
     display: flex;
@@ -418,6 +418,31 @@
   .process-list_section {
     width: 33%;
     margin: 1rem 1rem;
+  }
+  .jobs-title {
+    font-size: 1.5rem;
+  }
+  .jobs-category_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .jobs-category {
+    width: 31%;
+    margin: 0.5rem 0.5rem;
+  }
+  .jobs-category_title {
+    font-size: 1.1rem;
+  }
+  .jobs-category_job__image {
+    width: 15%;
+  }
+  .jobs-category_job__details {
+    font-size: 0.7rem;
+    width: auto;
+  }
+  .jobs-category_job__details__title {
+    font-size: 0.8rem;
   }
 }
 
