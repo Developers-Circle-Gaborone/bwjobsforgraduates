@@ -444,6 +444,41 @@
   .jobs-category_job__details__title {
     font-size: 0.8rem;
   }
+  .testimonials {
+    margin: 2rem 2rem;
+  }
+  .testimonials-title {
+    font-size: 1.3rem;
+  }
+  .testimonials-list_testimony {
+    flex-direction: row;
+    margin: 0 2rem;
+  }
+  .testimonials-list_testimony__image img {
+    width: 80%;
+  }
+  .testimonials-list_details {
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 1rem;
+  }
+  .testimonials-list_testimony__name h2 {
+    font-size: 1.1rem;
+    border-bottom: 0.1rem solid #40c4ff;
+  }
+  .testimonials-list_testimony__position h3 {
+    font-size: 0.9rem;
+  }
+  .testimonials-list_testimony__message p {
+    font-size: 0.8rem;
+    text-align: start;
+  }
+  .testimonials-list_testimony__message_btn {
+    font-size: 0.8rem;
+  }
+  .testimonials-list_nav-btn__btn {
+    padding: 0.3rem;
+  }
 }
 
 /* iPad portrait ----------- */
