@@ -181,7 +181,7 @@
   overflow: hidden;
   padding: 10% 2% 10% 7%;
   font-size: 0.7rem;
-  width: 60%;
+  width: auto;
 }
 
 .jobs-category_job__details__title {
