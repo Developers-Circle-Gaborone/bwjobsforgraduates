@@ -108,6 +108,7 @@
   color: #00b0ff;
   font-size: 0.9rem;
   margin: 0.5rem 0;
+  text-align: center;
 }
 
 .process-list_section__message p{
@@ -432,7 +433,7 @@
     margin: 0.5rem 0.5rem;
   }
   .jobs-category_title {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .jobs-category_job__image {
     width: 15%;
