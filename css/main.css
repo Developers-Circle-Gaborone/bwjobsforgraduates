@@ -146,6 +146,7 @@
 
 .jobs-category_title {
   color: #00b0ff;
+  /* color: #26a6a9; */
   font-size: 0.9rem;
 }
 
@@ -157,6 +158,17 @@
   border-radius: inherit;
   box-shadow: 0.1rem 0.1rem 0.3rem #00b0ff;
   /* box-shadow: 0.1rem 0.1rem 0.3rem #757575; */
+}
+
+
+.jobs-category_job a {
+  text-decoration: none;
+  color: #0091ea;
+}
+
+.jobs-category_job a:hover,
+.jobs-category_job a:active {
+  color: #ea80fc;
 }
 
 .jobs-category_job__image {
