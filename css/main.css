@@ -160,7 +160,6 @@
   /* box-shadow: 0.1rem 0.1rem 0.3rem #757575; */
 }
 
-
 .jobs-category_job a {
   text-decoration: none;
   color: #0091ea;
@@ -218,6 +217,11 @@
   box-shadow: 0.1rem 0.1rem 0.3rem #0091ea;
   padding: 0.3rem 1rem;
   cursor: pointer;
+}
+
+.button:hover {
+  color: #0091ea;
+  background-color: #ffffff;
 }
 
 .testimonials {
