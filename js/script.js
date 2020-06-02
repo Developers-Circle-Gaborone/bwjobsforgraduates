@@ -2,6 +2,7 @@
 var backdrop = document.querySelector('.backdrop');
 var sideNavButton = document.querySelector('.toggle-button');
 var sideBar = document.querySelector('.mobile-nav');
+var jobsButton = document.querySelector('.jobs-btn');
 
 //close mobile nav
 backdrop.addEventListener('click', function(){
@@ -26,3 +27,7 @@ sideNavButton.addEventListener('click', function(){
       backdrop.classList.add('open');
     }
   });
+
+jobsButton.addEventListener('click', function(){
+  document.location = 'jobs.html';
+}, false);
