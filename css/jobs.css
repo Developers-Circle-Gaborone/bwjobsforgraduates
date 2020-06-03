@@ -40,7 +40,6 @@
 }
 
 .job-listing_organize__titles h4 {
-    /* color: #0091ea; */
     margin-bottom: 0.5rem;
     border-bottom: 0.12rem solid #0091ea;
 }
@@ -110,13 +109,21 @@
 
 .job-listing_jobs__description_image {
     width: 10%;
-    /* border-top: 0.12rem solid; */
     background-color: #9e9e9e;
     border: 0.12rem solid #ea80fc;
     border-radius: 50%;
     padding: 0.6rem;
-    margin-top: 0.3rem;
-    margin-right: 1rem;
+    margin: 0.7rem 0.7rem 0;
+}
+
+.job-listing_jobs__description_details {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    border-left: 0.12rem solid;
+}
+
+.job-listing_jobs__description_details p {
+    padding: 1rem;
 }
 
 .job-listing_jobs__description_image img {
