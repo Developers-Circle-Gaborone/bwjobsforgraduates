@@ -1,0 +1,878 @@
+.service-overview {
+  background: #40c4ff;
+  padding: 0.62rem;
+  height: 30vh;
+  position: relative;
+}
+
+.service-overview::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: #ea80fc; */
+  background: url('/images/wave/wave(3).svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transform-origin: bottom;
+  animation: animateWave 7000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.service-overview__img-container {
+  position: absolute;
+  top: -2%;
+  right: 5%;
+  width: 170px;
+  /* height: 90%; */
+  background-position: right;
+  transform: rotateZ(11deg);
+  animation: animatePotraitPic 11000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  display: none;
+}
+
+.service-overview__img {
+  width: 100%;
+}
+
+.service-overview_slogan-container img {
+  position: absolute;
+  width: 50%;
+  top: 65%;
+  z-index: 3;
+  transform-origin: bottom;
+  animation: animateWave 7000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.service-overview_slogan2 {
+  right: 1%;
+}
+
+.service-overview__title {
+  margin-top: 0;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.service-overview__para {
+  font-size: 0.7rem;
+  color: white;
+  z-index: 4;
+}
+
+.process {
+  background-color: #fafafa;
+  padding: 1rem 0;
+  margin: 2rem 1rem;
+  border-radius: 1rem;
+}
+
+.process-title {
+  color: #0091ea;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.process-list_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e0e0e0;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem #00b0ff;
+  margin: 1rem 2rem;
+}
+
+.process-list_section__icon {
+  width: 10%;
+  background-color: aquamarine;
+  border: 0.12rem solid #ea80fc;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.process-list_section__icon img{
+  width: 100%;
+}
+
+.process-list_section__title h2 {
+  color: #00b0ff;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.process-list_section__message p{
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.jobs {
+  background-color: white;
+}
+
+.jobs-title {
+  color: #0091ea;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.jobs-category_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jobs-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  background-color: #f5f5f5;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.jobs-category_title {
+  color: #00b0ff;
+  /* color: #26a6a9; */
+  font-size: 0.9rem;
+}
+
+.jobs-category_job {
+  background-color: #e0e0e0;
+  width: 80%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: inherit;
+  box-shadow: 0.1rem 0.1rem 0.3rem #00b0ff;
+  /* box-shadow: 0.1rem 0.1rem 0.3rem #757575; */
+}
+
+.jobs-category_job a {
+  text-decoration: none;
+  color: #0091ea;
+}
+
+.jobs-category_job a:hover,
+.jobs-category_job a:active {
+  color: #ea80fc;
+}
+
+.jobs-category_job__image {
+  width: 15%;
+  background-color: #9e9e9e;
+  border: 0.12rem solid #ea80fc;
+  border-radius: 50%;
+  padding: 1rem;
+  float: left;
+  margin: 10% 0;
+  transform: perspective(11rem) rotateX(2deg) rotateY(40deg)rotateZ(-1deg);
+}
+
+.jobs-category_job__image img {
+  width: 100%;
+}
+
+.jobs-category_job__details {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 10% 2% 10% 7%;
+  font-size: 0.7rem;
+  width: auto;
+}
+
+.jobs-category_job__details__title {
+  font-size: 0.9rem;
+}
+
+.jobs-category_job__details__time img {
+  width: 6%;
+}
+
+.jobs-btn {
+  text-align: center;
+}
+
+.button {
+  background: #00b0ff;
+  color: #ffffff;
+  font: inherit;
+  font-weight: bold;
+  border: 0.12rem solid #00b0ff;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem #0091ea;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #0091ea;
+  background-color: #ffffff;
+}
+
+.testimonials {
+  background: #fafafa;
+  margin: 3rem 1rem;
+  padding: 0.3rem 0;
+  border-radius: 1rem;
+}
+
+.testimonials-title{
+  color: #0091ea;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.testimonials-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-list_testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin: 0 1rem;
+  border-radius: 1rem;
+}
+
+.testimonials-list_testimony__image {
+  text-align: center;
+}
+
+.testimonials-list_testimony__image img{
+  width: 60%;
+}
+
+.testimonials-list_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-list_testimony__name h2 {
+  font-size: 0.9rem;
+  border-bottom: 0.15rem solid #40c4ff;
+}
+
+.testimonials-list_testimony__position h3 {
+  font-size: 0.7rem;
+  margin-top: 0;
+}
+
+.testimonials-list_testimony__message p{
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.testimonials-list_testimony__message_btn {
+  font-family: 'Arial';
+  font-size: 0.8rem;
+  font-weight: normal;
+  padding: 0.07rem 0.3rem;
+  box-shadow: none;
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.testimonials-list_nav-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.testimonials-list_nav-btn__btn{
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border-width: 0.07rem;
+  margin: 0 0.1rem;
+}
+
+.employers {
+  background-color: #f5f5f5;
+  margin: 2rem 1rem;
+  border-radius: 2rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem #e0e0e0;
+}
+
+.employers-title {
+  color: #0091ea;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.employers-message {
+  font-size: 0.9rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.employers-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employers-list_image{
+  padding: 1rem;
+  text-align: center;
+}
+
+.employers-list_image img{
+  width: 60%;
+}
+
+.employers-button{
+  text-align: center;
+  padding: 0.8rem 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-device-width: 30rem) and (max-device-width : 40rem) {
+  .service-overview {
+    height: 70vh;
+  }
+  .service-overview_slogan-container img {
+    width: 40%;
+    top: 65%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 10%;
+  }
+  .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .service-overview__para {
+    font-size: 1rem;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media (min-width: 40rem)  and (max-width: 47.9rem){
+  .service-overview {
+    height: 70vh;
+  }
+  .service-overview__img-container {
+    display: block;
+  }
+  .service-overview_slogan-container img {
+    width: 40%;
+    top: 65%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 10%;
+  }
+  .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .service-overview__para {
+    font-size: 1rem;
+  }
+}
+
+/* iPhone X Pixel 2XL----------- */
+@media (min-device-width: 40rem) and (max-device-height: 56rem) and (orientation : landscape){
+  .service-overview {
+    height: 70vh;
+  }
+  .service-overview__img-container {
+    display: block;
+  }
+  .service-overview_slogan-container img {
+    width: 40%;
+    top: 65%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 10%;
+  }
+  .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .service-overview__para {
+    font-size: 1rem;
+  }
+  .process {
+    margin: 2rem 2rem;
+  }
+  .process-title {
+    font-size: 1.3rem;
+  }
+  .process-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .process-list_section {
+    width: 33%;
+    margin: 1rem 1rem;
+  }
+  .jobs-title {
+    font-size: 1.5rem;
+  }
+  .jobs-category_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .jobs-category {
+    width: 31%;
+    margin: 0.5rem 0.5rem;
+  }
+  .jobs-category_title {
+    font-size: 1rem;
+  }
+  .jobs-category_job__image {
+    width: 15%;
+  }
+  .jobs-category_job__details {
+    font-size: 0.7rem;
+    width: auto;
+  }
+  .jobs-category_job__details__title {
+    font-size: 0.8rem;
+  }
+  .testimonials {
+    margin: 2rem 2rem;
+  }
+  .testimonials-title {
+    font-size: 1.3rem;
+  }
+  .testimonials-list_testimony {
+    flex-direction: row;
+    margin: 0 2rem;
+  }
+  .testimonials-list_testimony__image img {
+    width: 80%;
+  }
+  .testimonials-list_details {
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 1rem;
+  }
+  .testimonials-list_testimony__name h2 {
+    font-size: 1.1rem;
+    border-bottom: 0.1rem solid #40c4ff;
+  }
+  .testimonials-list_testimony__position h3 {
+    font-size: 0.9rem;
+  }
+  .testimonials-list_testimony__message p {
+    font-size: 0.8rem;
+    text-align: start;
+  }
+  .testimonials-list_testimony__message_btn {
+    font-size: 0.8rem;
+  }
+  .testimonials-list_nav-btn__btn {
+    padding: 0.3rem;
+  }
+  .employers-title {
+    font-size: 1.3rem;
+    padding-bottom: 0;
+  }
+  .employers-message {
+    font-size: 1rem;
+  }
+  .employers-list {
+    flex-direction: row;
+  }
+  .employers-list_image {
+    padding: 0.6rem;
+    width: 100%;
+  }
+  .employers-list_image img {
+    width: 90%;
+  }
+}
+
+/* iPad portrait ----------- */
+@media (min-width: 48rem) and (max-width : 64rem) and (orientation : portrait){
+  .service-overview__img-container {
+    display: block;
+  }
+  .service-overview_slogan-container img {
+    display: block;
+    width: 30%;
+  }
+  .service-overview_slogan {
+    right: 50%;
+  }
+  .service-overview_slogan2 {
+    right: 10%;
+  }
+  .service-overview__title {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  .service-overview__para {
+    font-size: 1rem;
+  }
+  .process {
+    margin: 2rem 2rem;
+  }
+  .process-title {
+    font-size: 1.6rem;
+  }
+  .process-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .process-list_section {
+    width: 33%;
+    margin: 1rem 1rem;
+  }
+  .jobs-title {
+    font-size: 1.8rem;
+  }
+  .jobs-category_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .jobs-category {
+    width: 31%;
+    margin: 0.5rem 0.5rem;
+  }
+  .jobs-category_title {
+    font-size: 1.3rem;
+  }
+  .jobs-category_job__image {
+    width: 15%;
+  }
+  .jobs-category_job__details {
+    font-size: 0.7rem;
+    width: auto;
+  }
+  .jobs-category_job__details__title {
+    font-size: 0.9rem;
+  }
+  .testimonials {
+    margin: 3rem 2rem;
+  }
+  .testimonials-title {
+    font-size: 1.6rem;
+  }
+  .testimonials-list_testimony {
+    flex-direction: row;
+    margin: 0 3rem;
+  }
+  .testimonials-list_testimony__image img {
+    width: 100%;
+  }
+  .testimonials-list_details {
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 2rem;
+  }
+  .testimonials-list_testimony__name h2 {
+    font-size: 1.3rem;
+    border-bottom: 0.2rem solid #40c4ff;
+  }
+  .testimonials-list_testimony__position h3 {
+    font-size: 1rem;
+  }
+  .testimonials-list_testimony__message p {
+    font-size: 1rem;
+    text-align: start;
+  }
+  .testimonials-list_testimony__message_btn {
+    font-size: 1rem;
+  }
+  .testimonials-list_nav-btn__btn {
+    padding: 0.4rem;
+  }
+  .employers-title {
+    font-size: 1.6rem;
+    padding-bottom: 0;
+  }
+  .employers-message {
+    font-size: 1.1rem;
+  }
+  .employers-list {
+    flex-direction: row;
+  }
+  .employers-list_image {
+    padding: 0.6rem;
+    width: 100%;
+  }
+  .employers-list_image img {
+    width: 90%;
+  }
+}
+
+/* iPhone X and Pixel 2XL landscape ----------- */
+@media (min-width: 52rem) and (max-width : 64rem) and (orientation : landscape){
+  .service-overview {
+    height: 45vh;
+  }
+}
+
+/* iPad Pro ----------- */
+@media (min-width: 64rem) {
+  .service-overview_slogan-container img {
+    width: 30%;
+  }
+  .service-overview__title {
+    font-size: 1.6rem;
+  }
+  .service-overview__para {
+    font-size: 1.3rem;
+  }
+  .process {
+    margin: 2rem 2rem;
+  }
+  .process-title {
+    font-size: 1.6rem;
+  }
+  .process-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .process-list_section {
+    width: 33%;
+    margin: 1rem 1rem;
+  }
+  .jobs-title {
+    font-size: 1.8rem;
+  }
+  .jobs-category_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .jobs-category {
+    width: 31%;
+    margin: 0.5rem 0.5rem;
+  }
+  .jobs-category_title {
+    font-size: 1.3rem;
+  }
+  .jobs-category_job__image {
+    width: 15%;
+  }
+  .jobs-category_job__details {
+    font-size: 0.8rem;
+  }
+  .jobs-category_job__details__title {
+    font-size: 1rem;
+  }
+  .testimonials {
+    margin: 3rem 2rem;
+  }
+  .testimonials-title {
+    font-size: 1.6rem;
+  }
+  .testimonials-list_testimony {
+    flex-direction: row;
+    margin: 0 3rem;
+  }
+  .testimonials-list_testimony__image img {
+    width: 100%;
+  }
+  .testimonials-list_details {
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 2rem;
+  }
+  .testimonials-list_testimony__name h2 {
+    font-size: 1.3rem;
+    border-bottom: 0.2rem solid #40c4ff;
+  }
+  .testimonials-list_testimony__position h3 {
+    font-size: 1rem;
+  }
+  .testimonials-list_testimony__message p {
+    font-size: 1rem;
+    text-align: start;
+  }
+  .testimonials-list_testimony__message_btn {
+    font-size: 1rem;
+  }
+  .testimonials-list_nav-btn__btn {
+    padding: 0.4rem;
+  }
+  .employers-title {
+    font-size: 1.6rem;
+    padding-bottom: 0;
+  }
+  .employers-message {
+    font-size: 1.1rem;
+  }
+  .employers-list {
+    flex-direction: row;
+  }
+  .employers-list_image {
+    padding: 0.6rem;
+    width: 100%;
+  }
+  .employers-list_image img {
+    width: 90%;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width : 76.5rem) {
+  .service-overview__img-container {
+    display: block;
+  }
+  .service-overview_slogan-container img {
+    width: 20%;
+    top: 65%;
+    transform-origin: center;
+    animation: animateWave 7000ms cubic-bezier(0.81, 0.1, 0.49, 0.7) forwards;
+  }
+  .service-overview_slogan {
+    right: 45%;
+  }
+  .service-overview_slogan2 {
+    right: 20%;
+  }
+  .service-overview__title {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .service-overview__para {
+    font-size: 1.3rem;
+  }
+  .process {
+    margin: 2rem 3rem;
+  }
+  .process-title {
+    font-size: 1.6rem;
+  }
+  .process-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .process-list_section {
+    width: 23%;
+  }
+  .jobs-title {
+    font-size: 1.8rem;
+  }
+  .jobs-category_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .jobs-category {
+    width: 31%;
+    margin: 0.5rem 0.5rem;
+  }
+  .jobs-category_title {
+    font-size: 1.3rem;
+  }
+  .jobs-category_job__image {
+    width: 18%;
+  }
+  .jobs-category_job__details {
+    font-size: 0.9rem;
+  }
+  .jobs-category_job__details__title {
+    font-size: 1.2rem;
+  }
+  .testimonials {
+    margin: 3rem 2rem;
+  }
+  .testimonials-title {
+    font-size: 1.6rem;
+  }
+  .testimonials-list_testimony {
+    flex-direction: row;
+    margin: 0 3rem;
+  }
+  .testimonials-list_testimony__image img {
+    width: 100%;
+  }
+  .testimonials-list_details {
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 2rem;
+  }
+  .testimonials-list_testimony__name h2 {
+    font-size: 1.3rem;
+    border-bottom: 0.2rem solid #40c4ff;
+  }
+  .testimonials-list_testimony__position h3 {
+    font-size: 1rem;
+  }
+  .testimonials-list_testimony__message p {
+    font-size: 1rem;
+    text-align: start;
+  }
+  .testimonials-list_testimony__message_btn {
+    font-size: 1rem;
+  }
+  .testimonials-list_nav-btn__btn {
+    padding: 0.4rem;
+  }
+  .employers-title {
+    font-size: 1.6rem;
+    padding-bottom: 0;
+  }
+  .employers-message {
+    font-size: 1.1rem;
+  }
+  .employers-list {
+    flex-direction: row;
+  }
+  .employers-list_image {
+    padding: 0.6rem;
+    width: 100%;
+  }
+  .employers-list_image img {
+    width: 90%;
+  }
+}
+
+@keyframes animatePotraitPic {
+  0% {
+    transform: translateY(-15rem);
+  }
+  100% {
+    transform: translateY(0), rotateZ(11deg);
+  }
+}
+
+@keyframes animateWave {
+  0% {
+    transform: scale(1,0);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
