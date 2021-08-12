@@ -2,7 +2,7 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
-***Bw Jobs For Graduates*** is an organisation that stands to alleviate **unemployment amongst the youth of Botswana** , the organization prepares and equip the youth with **leadership skills, business skills, self-responsibility and encouraging entrepreneurship** among the youth to prepare them to **effectively and productively respond to the challenges** of school, university, the corporate world, labour market and society at large
+***Bw Jobs For Graduates*** is an organisation that stands to alleviate **unemployment amongst the youth of Botswana** , the organization prepares and equip the youth with **leadership skills, business skills, self-responsibility and encouraging entrepreneurship** among the youth to prepare them to **effectively and productively respond to the challenges** of school, university, the corporate world, labour market and society at large.
 
 #### The Organisation's objectives are:
 
